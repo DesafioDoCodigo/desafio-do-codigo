@@ -1,0 +1,12 @@
+# Habilitar o PHP 5.5
+
+#AddHandler application/x-httpd-php55 .php
+#<IfModule mod_suphp.c>
+#suPHP_ConfigPath /opt/php55/lib
+#</IfModule>
+
+RewriteEngine on
+
+RewriteRule ^logout/?$ php/func.php?d=true
+RewriteRule ^(continuar|adm|tut|dash)/?$ home/index.php?p=$1
+RewriteRule ^([0-9]+)/?$ home/index.php?p=continuar&m=m$1
