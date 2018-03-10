@@ -13,7 +13,7 @@ Se você deseja colaborar, seja bem vindo! Acesse as issues do projeto e escolha
 # Rodando o projeto em desenvolvimento
 
 1. Baixe o código do repositório usando seu git
-1. Acesse em seu browser usando seu servidor local, algo como `http://localhost/desafio_do_codigo``. Deverá aparecer um erro "Não foi encontrado seu arquivo de configuração do ambiente". Siga em frente.
+1. Acesse em seu browser usando seu servidor local, algo como ```http://localhost/desafio_do_codigo```. Deverá aparecer um erro "Não foi encontrado seu arquivo de configuração do ambiente". Siga em frente.
 1. Crie seu banco de dados local usando o script contido em /config/database.sql
 1. Crie agora o arquivo de configurações exclusivo de seu ambiente. Faça isso conferindo as instruções em /config/sampleConfig.php.
 
