@@ -3,12 +3,12 @@
 ## O que é?
 
 O "Desafio do Código" é um desafio online com um conjunto de missões que guiam você por ferramentas digitais para aprender programação, matemática e inglês. 
-Foi criado por  [Soraia Novaes](http://professoragoogle.com.br/) para auxiliar crianças de 10 a 108 anos a aprender estas abilidades tão necessárias no mundo atual.
+Foi criado por  [Soraia Novaes](http://professoragoogle.com.br/) para auxiliar crianças de 10 a 108 anos a aprender estas habilidades tão necessárias no mundo atual.
 
 ## Este repositório
 
-É o repositório único do projeto, implementado em PHP por alguns voluntários e que agora está sendo atualizado para um padrão mais limpo e moderno de código.  
-Se você deseja colaborar, seja bem vindo! Acesse as issues do projeto e escolha uma para desenvolver!
+É o repositório único do projeto, implementado em PHP por alguns voluntários e que agora está sendo atualizado para um padrão mais limpo e moderno de código.
+Se você deseja colaborar, seja bem-vindo! Acesse as issues do projeto e escolha uma para desenvolver!
 
 # Rodando o projeto em desenvolvimento
 
@@ -18,7 +18,7 @@ Se você deseja colaborar, seja bem vindo! Acesse as issues do projeto e escolha
 1. Crie agora o arquivo de configurações exclusivo de seu ambiente. Faça isso conferindo as instruções em /config/sampleConfig.php.
 
 
-## Acessar por url do hostgator (por fora do domínio, clound flaire)
+## Acessar por url do hostgator (por fora do domínio, cloudflare)
 ```http://br410.teste.website/~desaf342/desafio/```
 
 # Banco de dados
