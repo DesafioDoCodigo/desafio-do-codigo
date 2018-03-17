@@ -9,6 +9,22 @@ session_start();
 require dirname(__FILE__) . "/../config/index.php";
 require dirname(__FILE__) . "/../db.php";
 
+
+// Autoloading
+require __DIR__ . '/../vendor/autoload.php';
+
+// Setup de rollbar
+use Rollbar\Payload\Level;
+use \Rollbar\Rollbar;
+$config = array(
+    'access_token' => 'ead30c419b9944d48210e0564df46bd1',
+    'environment' => 'production',
+    'root' => '/Users/brian/www/myapp'
+);
+$set_exception_handler = true;
+$set_error_handler = true;
+Rollbar::init($config, $set_exception_handler, $set_error_handler);
+
 //verifica se fez requizição de destruir section    
 if ($_GET['d']) {
     session_destroy();
