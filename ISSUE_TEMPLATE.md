@@ -5,6 +5,7 @@ Para criar uma issue, informe as três informações abaixo, e apague este pará
 - [ ] Report de bug
 - [ ] Solicitação de novo recurso
 - [ ] Melhoria significativa
+- [ ] Discussão
 
 ## Resultado esperado
 Diga o que espera que aconteça...
