@@ -14,6 +14,9 @@ SET time_zone = "+00:00";
 -- Database: `desafio_codigo`
 --
 
+CREATE DATABASE IF NOT EXISTS `desafio_codigo` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `desafio_codigo`;
+
 -- --------------------------------------------------------
 
 --

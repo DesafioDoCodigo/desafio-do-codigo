@@ -2,315 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feae4f86-0bc6-47e6-831e-1c5d1398171d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/.php_cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/doc/01-usage.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/doc/02-handlers-formatters-processors.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/doc/03-utilities.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/doc/04-extending.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/doc/sockets.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/phpunit.xml.dist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/ErrorHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/ChromePHPFormatter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/ElasticaFormatter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/FlowdockFormatter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/FluentdFormatter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/FormatterInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/GelfMessageFormatter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/HtmlFormatter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/JsonFormatter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/LogglyFormatter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/LogstashFormatter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/MongoDBFormatter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/ScalarFormatter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/WildfireFormatter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AbstractSyslogHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AmqpHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/BrowserConsoleHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/BufferHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/ChromePHPHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/CouchDBHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/CubeHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/Curl/Util.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/DeduplicationHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/DoctrineCouchDBHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/DynamoDbHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/ElasticSearchHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/ErrorLogHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FilterHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ActivationStrategyInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ChannelLevelActivationStrategy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ErrorLevelActivationStrategy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossedHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FirePHPHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FleepHookHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FlowdockHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/GelfHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/GroupHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/HandlerInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/HandlerWrapper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/HipChatHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/IFTTTHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/LogEntriesHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/LogglyHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/MailHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/MandrillHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/MissingExtensionException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/MongoDBHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/NativeMailerHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/NewRelicHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/NullHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/PHPConsoleHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/PsrHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/PushoverHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RavenHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RedisHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RollbarHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SamplingHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/Slack/SlackRecord.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SlackHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SlackWebhookHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SlackbotHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SocketHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SwiftMailerHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SyslogHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdp/UdpSocket.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdpHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/TestHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/WhatFailureGroupHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/ZendMonitorHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Logger.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/GitProcessor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/IntrospectionProcessor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MemoryPeakUsageProcessor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MemoryProcessor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MemoryUsageProcessor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MercurialProcessor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/ProcessIdProcessor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/PsrLogMessageProcessor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/TagProcessor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/UidProcessor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/WebProcessor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Registry.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/ErrorHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/ChromePHPFormatterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/ElasticaFormatterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/FlowdockFormatterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/FluentdFormatterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/GelfMessageFormatterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/JsonFormatterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/LineFormatterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/LogglyFormatterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/LogstashFormatterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/MongoDBFormatterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/NormalizerFormatterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/ScalarFormatterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/WildfireFormatterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/AbstractHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/AbstractProcessingHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/AmqpHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/BrowserConsoleHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/BufferHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/ChromePHPHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/CouchDBHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/DeduplicationHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/DoctrineCouchDBHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/DynamoDbHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/ElasticSearchHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/ErrorLogHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FilterHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FingersCrossedHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FirePHPHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/Fixtures/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FleepHookHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FlowdockHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/GelfHandlerLegacyTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/GelfHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/GelfMockMessagePublisher.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/GroupHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/HandlerWrapperTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/HipChatHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/LogEntriesHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/MailHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/MockRavenClient.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/MongoDBHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/NativeMailerHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/NewRelicHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/NullHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/PHPConsoleHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/PsrHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/PushoverHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/RavenHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/RedisHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/RollbarHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/RotatingFileHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SamplingHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/Slack/SlackRecordTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SlackHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SlackWebhookHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SlackbotHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SocketHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/StreamHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SwiftMailerHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SyslogHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SyslogUdpHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/TestHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/UdpSocketTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/WhatFailureGroupHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/ZendMonitorHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/LoggerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/GitProcessorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/IntrospectionProcessorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/MemoryPeakUsageProcessorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/MemoryUsageProcessorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/MercurialProcessorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/ProcessIdProcessorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/PsrLogMessageProcessorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/TagProcessorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/UidProcessorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/WebProcessorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/PsrLogCompatTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/RegistryTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/TestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/log/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/log/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/AbstractLogger.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/InvalidArgumentException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/LogLevel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/LoggerAwareInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/LoggerAwareTrait.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/LoggerInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/LoggerTrait.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/NullLogger.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/log/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/psr/log/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/POST_FORMAT.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/THANKS.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/TODO.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/data/rollbar.snippet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/phpunit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/DataBuilder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/DataBuilderInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Defaults.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/ErrorWrapper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/FilterInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Handlers/AbstractHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Handlers/ErrorHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Handlers/ExceptionHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Handlers/FatalHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/LevelFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Payload/Body.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Payload/ContentInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Payload/Context.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Payload/Data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Payload/ExceptionInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Payload/Frame.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Payload/Level.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Payload/Message.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Payload/Notifier.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Payload/Payload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Payload/Person.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Payload/Request.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Payload/Server.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Payload/Trace.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Payload/TraceChain.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Response.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/ResponseHandlerInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Rollbar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/RollbarJsHelper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/RollbarLogger.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Scrubber.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/ScrubberInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Senders/AgentSender.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Senders/CurlSender.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Senders/FluentSender.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Senders/SenderInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/TransformerInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Truncation/AbstractStrategy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Truncation/FramesStrategy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Truncation/IStrategy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Truncation/MinBodyStrategy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Truncation/RawStrategy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Truncation/StringsStrategy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Truncation/Truncation.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/src/Utilities.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/AgentTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/BackwardsCompatibilityConfigTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/BaseRollbarTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/BodyTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/ConfigTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/ContextTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/CurlSenderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/DataBuilderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/DataTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/DefaultsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/ErrorWrapperTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/ExceptionInfoTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/FakeDataBuilder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/FakeLog.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/FluentTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/FrameTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/Handlers/ErrorHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/Handlers/ExceptionHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/Handlers/FatalHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/LevelFactoryTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/LevelTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/MessageTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/NotifierTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/PayloadTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/PersonTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/ReadmeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/RequestTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/ResponseTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/RollbarJsHelperTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/RollbarLoggerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/RollbarTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/ScrubberTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/ServerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/TestHelpers/Exceptions/FiftyFiftyExceptionSampleRate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/TestHelpers/Exceptions/FiftyFityChildExceptionSampleRate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/TestHelpers/Exceptions/MidExceptionSampleRate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/TestHelpers/Exceptions/QuarterExceptionSampleRate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/TestHelpers/Exceptions/SilentExceptionSampleRate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/TestHelpers/Exceptions/VerboseExceptionSampleRate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/TestHelpers/MockPhpStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/TestHelpers/StdOutLogger.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/TraceChainTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/TraceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/Truncation/FramesStrategyTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/Truncation/MinBodyStrategyTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/Truncation/RawStrategyTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/Truncation/StringsStrategyTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/Truncation/TruncationTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/rollbar/rollbar/tests/UtilitiesTest.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.sql" afterPath="$PROJECT_DIR$/config/database.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/index.php" afterPath="$PROJECT_DIR$/config/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/sampleConfig.php" afterPath="$PROJECT_DIR$/config/sampleConfig.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -348,51 +44,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="database.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-              <folding>
-                <marker date="1518532776000" expanded="true" signature="393:502" ph="CREATE TABLE... adm" />
-                <marker date="1518532776000" expanded="true" signature="602:810" ph="CREATE TABLE... bug" />
-                <marker date="1518532776000" expanded="true" signature="921:1285" ph="CREATE TABLE... cron_mail_list" />
-                <marker date="1518532776000" expanded="true" signature="1391:1724" ph="CREATE TABLE... khantoken" />
-                <marker date="1518532776000" expanded="true" signature="1837:2086" ph="CREATE TABLE... limitador_pontos" />
-                <marker date="1518532776000" expanded="true" signature="2196:2507" ph="CREATE TABLE... mail_template" />
-                <marker date="1518532776000" expanded="true" signature="2611:2817" ph="CREATE TABLE... missoes" />
-                <marker date="1518532776000" expanded="true" signature="2921:3269" ph="CREATE TABLE... paginas" />
-                <marker date="1518532776000" expanded="true" signature="3374:3595" ph="CREATE TABLE... recovery" />
-                <marker date="1518532776000" expanded="true" signature="3697:4532" ph="CREATE TABLE... users" />
-                <marker date="1518532776000" expanded="true" signature="4641:4884" ph="CREATE TABLE... user_mission" />
-                <marker date="1518532776000" expanded="true" signature="4993:5134" ph="CREATE TABLE... visualizacao" />
-                <marker date="1518532776000" expanded="true" signature="5251:5592" ph="CREATE TABLE... vs_database_diagrams" />
-                <marker date="1518532776000" expanded="true" signature="5677:5732" ph="ALTER TABLE `limitador_pontos`... " />
-                <marker date="1518532776000" expanded="true" signature="5778:5830" ph="ALTER TABLE `mail_template`... " />
-                <marker date="1518532776000" expanded="true" signature="5870:5941" ph="ALTER TABLE `missoes`... " />
-                <marker date="1518532776000" expanded="true" signature="5981:6027" ph="ALTER TABLE `paginas`... " />
-                <marker date="1518532776000" expanded="true" signature="6068:6115" ph="ALTER TABLE `recovery`... " />
-                <marker date="1518532776000" expanded="true" signature="6153:6255" ph="ALTER TABLE `users`... " />
-                <marker date="1518532776000" expanded="true" signature="6300:6413" ph="ALTER TABLE `user_mission`... " />
-                <marker date="1518532776000" expanded="true" signature="6458:6509" ph="ALTER TABLE `visualizacao`... " />
-                <marker date="1518532776000" expanded="true" signature="6608:6684" ph="ALTER TABLE `limitador_pontos`... " />
-                <marker date="1518532776000" expanded="true" signature="6736:6808" ph="ALTER TABLE `mail_template`... " />
-                <marker date="1518532776000" expanded="true" signature="6854:6921" ph="ALTER TABLE `paginas`... " />
-                <marker date="1518532776000" expanded="true" signature="6968:7036" ph="ALTER TABLE `recovery`... " />
-                <marker date="1518532776000" expanded="true" signature="7080:7145" ph="ALTER TABLE `users`... " />
-                <marker date="1518532776000" expanded="true" signature="7196:7268" ph="ALTER TABLE `user_mission`... " />
-                <marker date="1518532776000" expanded="true" signature="7319:7391" ph="ALTER TABLE `visualizacao`... " />
-              </folding>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="408">
+                <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="216">
+              <caret line="13" column="62" lean-forward="false" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CONTRIBUTING.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="480">
+                <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISSUE_TEMPLATE.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ISSUE_TEMPLATE.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="312">
+                <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -400,76 +96,94 @@
       <file leaf-file-name="func.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/func.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="501">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
-                <element signature="e#345#371#0#PHP" expanded="true" />
-                <marker date="1521286406000" expanded="true" signature="1196:1245" ph="SELECT * FRO... users" />
-                <marker date="1521286406000" expanded="true" signature="1740:1795" ph="SELECT missa... user_mission" />
-                <marker date="1521286406000" expanded="true" signature="3075:3122" ph="UPDATE users... " />
-                <marker date="1521286406000" expanded="true" signature="3509:3616" ph="SELECT oauth... khantoken" />
-                <marker date="1521286406000" expanded="true" signature="5426:5480" ph="SELECT qtd F... visualizacao" />
-                <marker date="1521286406000" expanded="true" signature="5657:5713" ph="INSERT INTO visualizacao... " />
-                <marker date="1521286406000" expanded="true" signature="5760:5816" ph="UPDATE visua... " />
-                <marker date="1521286406000" expanded="true" signature="5987:6029" ph="SELECT SUM(q... visualizacao" />
-                <marker date="1521286406000" expanded="true" signature="6400:6499" ph="UPDATE users... " />
-                <marker date="1521286406000" expanded="true" signature="6565:6664" ph="UPDATE users... " />
-                <marker date="1521286406000" expanded="true" signature="6730:6829" ph="UPDATE users... " />
-                <marker date="1521286406000" expanded="true" signature="6894:6991" ph="UPDATE users... " />
-                <marker date="1521286406000" expanded="true" signature="7060:7165" ph="UPDATE users... " />
-                <marker date="1521286406000" expanded="true" signature="7232:7333" ph="UPDATE users... " />
-                <marker date="1521286406000" expanded="true" signature="7400:7501" ph="UPDATE users... " />
-                <marker date="1521286406000" expanded="true" signature="7567:7666" ph="UPDATE users... " />
-                <marker date="1521286406000" expanded="true" signature="7777:7820" ph="SELECT * FRO... users" />
-                <marker date="1521286406000" expanded="true" signature="8188:8243" ph="SELECT missa... user_mission" />
-                <marker date="1521286406000" expanded="true" signature="9569:9616" ph="UPDATE users... " />
-                <marker date="1521286406000" expanded="true" signature="10970:11004" ph="SELECT max(i... " />
-                <marker date="1521286406000" expanded="true" signature="11628:11764" ph="SELECT l.ten... limitador_pontos" />
-                <marker date="1521286406000" expanded="true" signature="12218:12331" ph="UPDATE `user... " />
-                <marker date="1521286406000" expanded="true" signature="12559:12662" ph="INSERT INTO user_mission... " />
-                <marker date="1521286406000" expanded="true" signature="12825:12896" ph="UPDATE `user... " />
-                <marker date="1521286406000" expanded="true" signature="13098:13161" ph="SELECT SUM(p... user_mission" />
-                <marker date="1521286406000" expanded="true" signature="13363:13424" ph="SELECT m_las... users" />
-                <marker date="1521286406000" expanded="true" signature="13671:13735" ph="SELECT ponto... user_mission" />
-                <marker date="1521286406000" expanded="true" signature="13891:13951" ph="SELECT COUNT... users" />
-                <marker date="1521286406000" expanded="true" signature="14098:14143" ph="SELECT SUM(p... user_mission" />
-                <marker date="1521286406000" expanded="true" signature="14293:14326" ph="SELECT COUNT... bug" />
-                <marker date="1521286406000" expanded="true" signature="14841:15010" ph="..." />
-                <marker date="1521286406000" expanded="false" signature="14946:14953" ph="×" />
-                <marker date="1521286406000" expanded="true" signature="15136:15276" ph="SELECT l.ten... limitador_pontos" />
-                <marker date="1521286406000" expanded="true" signature="15846:15953" ph="UPDATE limit... " />
-                <marker date="1521286406000" expanded="true" signature="16018:16116" ph="INSERT INTO limitador_pontos... " />
-                <marker date="1521286406000" expanded="true" signature="16269:16349" ph="SELECT nome users" />
-                <marker date="1521286406000" expanded="true" signature="16712:16767" ph="SELECT missa... user_mission" />
-                <marker date="1521286406000" expanded="true" signature="18718:18777" ph="SELECT COUNT... user_mission" />
-                <marker date="1521286406000" expanded="true" signature="19125:19176" ph="SELECT count... users" />
+                <element signature="e#462#488#0#PHP" expanded="true" />
+                <marker date="1521287632000" expanded="true" signature="1410:1459" ph="SELECT * FRO... users" />
+                <marker date="1521287632000" expanded="true" signature="1922:1977" ph="SELECT missa... user_mission" />
+                <marker date="1521287632000" expanded="true" signature="3257:3304" ph="UPDATE users... " />
+                <marker date="1521287632000" expanded="true" signature="3691:3798" ph="SELECT oauth... khantoken" />
+                <marker date="1521287632000" expanded="true" signature="5608:5662" ph="SELECT qtd F... visualizacao" />
+                <marker date="1521287632000" expanded="true" signature="5839:5895" ph="INSERT INTO visualizacao... " />
+                <marker date="1521287632000" expanded="true" signature="5942:5998" ph="UPDATE visua... " />
+                <marker date="1521287632000" expanded="true" signature="6169:6211" ph="SELECT SUM(q... visualizacao" />
+                <marker date="1521287632000" expanded="true" signature="6582:6681" ph="UPDATE users... " />
+                <marker date="1521287632000" expanded="true" signature="6747:6846" ph="UPDATE users... " />
+                <marker date="1521287632000" expanded="true" signature="6912:7011" ph="UPDATE users... " />
+                <marker date="1521287632000" expanded="true" signature="7076:7173" ph="UPDATE users... " />
+                <marker date="1521287632000" expanded="true" signature="7242:7347" ph="UPDATE users... " />
+                <marker date="1521287632000" expanded="true" signature="7414:7515" ph="UPDATE users... " />
+                <marker date="1521287632000" expanded="true" signature="7582:7683" ph="UPDATE users... " />
+                <marker date="1521287632000" expanded="true" signature="7749:7848" ph="UPDATE users... " />
+                <marker date="1521287632000" expanded="true" signature="7959:8002" ph="SELECT * FRO... users" />
+                <marker date="1521287632000" expanded="true" signature="8370:8425" ph="SELECT missa... user_mission" />
+                <marker date="1521287632000" expanded="true" signature="9751:9798" ph="UPDATE users... " />
+                <marker date="1521287632000" expanded="true" signature="11152:11186" ph="SELECT max(i... " />
+                <marker date="1521287632000" expanded="true" signature="11810:11946" ph="SELECT l.ten... limitador_pontos" />
+                <marker date="1521287632000" expanded="true" signature="12400:12513" ph="UPDATE `user... " />
+                <marker date="1521287632000" expanded="true" signature="12741:12844" ph="INSERT INTO user_mission... " />
+                <marker date="1521287632000" expanded="true" signature="13007:13078" ph="UPDATE `user... " />
+                <marker date="1521287632000" expanded="true" signature="13280:13343" ph="SELECT SUM(p... user_mission" />
+                <marker date="1521287632000" expanded="true" signature="13545:13606" ph="SELECT m_las... users" />
+                <marker date="1521287632000" expanded="true" signature="13853:13917" ph="SELECT ponto... user_mission" />
+                <marker date="1521287632000" expanded="true" signature="14073:14133" ph="SELECT COUNT... users" />
+                <marker date="1521287632000" expanded="true" signature="14280:14325" ph="SELECT SUM(p... user_mission" />
+                <marker date="1521287632000" expanded="true" signature="14475:14508" ph="SELECT COUNT... bug" />
+                <marker date="1521287632000" expanded="true" signature="15023:15192" ph="..." />
+                <marker date="1521287632000" expanded="false" signature="15128:15135" ph="×" />
+                <marker date="1521287632000" expanded="true" signature="15318:15458" ph="SELECT l.ten... limitador_pontos" />
+                <marker date="1521287632000" expanded="true" signature="16028:16135" ph="UPDATE limit... " />
+                <marker date="1521287632000" expanded="true" signature="16200:16298" ph="INSERT INTO limitador_pontos... " />
+                <marker date="1521287632000" expanded="true" signature="16451:16531" ph="SELECT nome users" />
+                <marker date="1521287632000" expanded="true" signature="16894:16949" ph="SELECT missa... user_mission" />
+                <marker date="1521287632000" expanded="true" signature="18900:18959" ph="SELECT COUNT... user_mission" />
+                <marker date="1521287632000" expanded="true" signature="19307:19358" ph="SELECT count... users" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="macbook-pro-de-tiago.local.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/envs/macbook-pro-de-tiago.local.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            <state relative-caret-position="48">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="cria.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/cria.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="784">
+              <caret line="98" column="158" lean-forward="false" selection-start-line="98" selection-start-column="158" selection-end-line="98" selection-end-column="158" />
               <folding>
-                <marker date="1518349154000" expanded="true" signature="11101:11111" ph="..." />
-                <marker date="1518349154000" expanded="true" signature="20684:20802" ph="SELECT u.id,... users" />
-                <marker date="1518349154000" expanded="true" signature="20854:20950" ph="SELECT u.id,... users" />
-                <marker date="1518349154000" expanded="true" signature="28239:28245" ph=" " />
-                <marker date="1518349154000" expanded="true" signature="29545:29551" ph=" " />
+                <marker date="1516566088000" expanded="true" signature="1574:1623" ph="SELECT * FRO... users" />
+                <marker date="1516566088000" expanded="true" signature="1782:2128" ph="INSERT INTO `users`... " />
+                <marker date="1516566088000" expanded="true" signature="3762:3925" ph="INSERT INTO cron_mail_list... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="defaults.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/defaults.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sampleConfig.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/sampleConfig.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="72" lean-forward="false" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="72" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -493,6 +207,10 @@
       <find>localhost</find>
       <find>desaf342_codewars</find>
       <find>QhADyn3L){&amp;o</find>
+      <find>error_reporting</find>
+      <find>MAIL_TEMPLATE_REMEMBERSTART</find>
+      <find>MAIL_TEMPLATE_NEWACCOUNT</find>
+      <find>MAIL_TEMPLATE_REMEMBERFINAL</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -513,18 +231,22 @@
         <option value="$PROJECT_DIR$/db.php" />
         <option value="$PROJECT_DIR$/cli/email_check.php" />
         <option value="$PROJECT_DIR$/home/index.php" />
-        <option value="$PROJECT_DIR$/config/envs/macbook-pro-de-tiago.local.php" />
-        <option value="$PROJECT_DIR$/config/sampleConfig.php" />
         <option value="$PROJECT_DIR$/config/defaults.php" />
         <option value="$PROJECT_DIR$/cronsend.php" />
         <option value="$PROJECT_DIR$/mail/templates/novaconta.php" />
         <option value="$PROJECT_DIR$/home/php/conf.php" />
-        <option value="$PROJECT_DIR$/config/database.sql" />
-        <option value="$PROJECT_DIR$/config/index.php" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/php/func.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/php/func.php" />
+        <option value="$PROJECT_DIR$/ISSUE_TEMPLATE.md" />
+        <option value="$PROJECT_DIR$/CONTRIBUTING.md" />
+        <option value="$PROJECT_DIR$/config/database.sql" />
+        <option value="$PROJECT_DIR$/config/envs/macbook-pro-de-tiago.local.php" />
+        <option value="$PROJECT_DIR$/config/sampleConfig.php" />
+        <option value="$PROJECT_DIR$/config/index.php" />
+        <option value="$PROJECT_DIR$/production.md" />
+        <option value="$PROJECT_DIR$/query.md" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -537,7 +259,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
+    <option name="width" value="1555" />
     <option name="height" value="1004" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -565,6 +287,17 @@
             <path>
               <item name="desafio" type="b2602c69:ProjectViewProjectNode" />
               <item name="desafio" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="desafio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desafio" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="desafio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desafio" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="envs" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -603,21 +336,22 @@
       <workItem from="1518346486822" duration="727000" />
       <workItem from="1518521778457" duration="5540000" />
       <workItem from="1518528131041" duration="4976000" />
-      <workItem from="1521285907638" duration="588000" />
+      <workItem from="1521285907638" duration="5389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13461000" />
+    <option name="totallyTimeSpent" value="18262000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="1004" extended-state="0" />
+    <frame x="0" y="23" width="1555" height="1004" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22859451" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19299406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3901454" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -629,7 +363,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -644,57 +377,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/phpinfo1.php" />
-    <entry file="file://$PROJECT_DIR$/index-teste.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-511">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1516564306000" expanded="true" signature="7921:7931" ph="..." />
-            <marker date="1516564306000" expanded="true" signature="14360:14478" ph="SELECT u.id,... users" />
-            <marker date="1516564306000" expanded="true" signature="14521:14617" ph="SELECT u.id,... users" />
-            <marker date="1516564306000" expanded="true" signature="19802:19808" ph=" " />
-            <marker date="1516564306000" expanded="true" signature="21018:21024" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indexnovatentativa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1608">
-          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding>
-            <marker date="1516564306000" expanded="true" signature="7921:7931" ph="..." />
-            <marker date="1516564306000" expanded="true" signature="14360:14478" ph="SELECT u.id,... users" />
-            <marker date="1516564306000" expanded="true" signature="14521:14617" ph="SELECT u.id,... users" />
-            <marker date="1516564306000" expanded="true" signature="19802:19808" ph=" " />
-            <marker date="1516564306000" expanded="true" signature="21018:21024" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/recp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <marker date="1516566086000" expanded="true" signature="275:401" ph="SELECT u.id,... users" />
-            <marker date="1516566086000" expanded="true" signature="583:634" ph="UPDATE users... " />
-            <marker date="1516566086000" expanded="true" signature="1179:1277" ph="INSERT INTO recovery... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/ka_client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1957">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1516566086000" expanded="true" signature="2555:2759" ph="INSERT INTO `khantoken`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mail/class.phpmailer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
@@ -735,14 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -790,13 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/envs/macbook-pro-de-tiago.local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -960,90 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/sampleConfig.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/defaults.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding>
-            <element signature="e#6#169#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#6#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="672">
-            <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <marker date="1518532776000" expanded="true" signature="393:502" ph="CREATE TABLE... adm" />
-            <marker date="1518532776000" expanded="true" signature="602:810" ph="CREATE TABLE... bug" />
-            <marker date="1518532776000" expanded="true" signature="921:1285" ph="CREATE TABLE... cron_mail_list" />
-            <marker date="1518532776000" expanded="true" signature="1391:1724" ph="CREATE TABLE... khantoken" />
-            <marker date="1518532776000" expanded="true" signature="1837:2086" ph="CREATE TABLE... limitador_pontos" />
-            <marker date="1518532776000" expanded="true" signature="2196:2507" ph="CREATE TABLE... mail_template" />
-            <marker date="1518532776000" expanded="true" signature="2611:2817" ph="CREATE TABLE... missoes" />
-            <marker date="1518532776000" expanded="true" signature="2921:3269" ph="CREATE TABLE... paginas" />
-            <marker date="1518532776000" expanded="true" signature="3374:3595" ph="CREATE TABLE... recovery" />
-            <marker date="1518532776000" expanded="true" signature="3697:4532" ph="CREATE TABLE... users" />
-            <marker date="1518532776000" expanded="true" signature="4641:4884" ph="CREATE TABLE... user_mission" />
-            <marker date="1518532776000" expanded="true" signature="4993:5134" ph="CREATE TABLE... visualizacao" />
-            <marker date="1518532776000" expanded="true" signature="5251:5592" ph="CREATE TABLE... vs_database_diagrams" />
-            <marker date="1518532776000" expanded="true" signature="5677:5732" ph="ALTER TABLE `limitador_pontos`... " />
-            <marker date="1518532776000" expanded="true" signature="5778:5830" ph="ALTER TABLE `mail_template`... " />
-            <marker date="1518532776000" expanded="true" signature="5870:5941" ph="ALTER TABLE `missoes`... " />
-            <marker date="1518532776000" expanded="true" signature="5981:6027" ph="ALTER TABLE `paginas`... " />
-            <marker date="1518532776000" expanded="true" signature="6068:6115" ph="ALTER TABLE `recovery`... " />
-            <marker date="1518532776000" expanded="true" signature="6153:6255" ph="ALTER TABLE `users`... " />
-            <marker date="1518532776000" expanded="true" signature="6300:6413" ph="ALTER TABLE `user_mission`... " />
-            <marker date="1518532776000" expanded="true" signature="6458:6509" ph="ALTER TABLE `visualizacao`... " />
-            <marker date="1518532776000" expanded="true" signature="6608:6684" ph="ALTER TABLE `limitador_pontos`... " />
-            <marker date="1518532776000" expanded="true" signature="6736:6808" ph="ALTER TABLE `mail_template`... " />
-            <marker date="1518532776000" expanded="true" signature="6854:6921" ph="ALTER TABLE `paginas`... " />
-            <marker date="1518532776000" expanded="true" signature="6968:7036" ph="ALTER TABLE `recovery`... " />
-            <marker date="1518532776000" expanded="true" signature="7080:7145" ph="ALTER TABLE `users`... " />
-            <marker date="1518532776000" expanded="true" signature="7196:7268" ph="ALTER TABLE `user_mission`... " />
-            <marker date="1518532776000" expanded="true" signature="7319:7391" ph="ALTER TABLE `visualizacao`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -1058,60 +641,212 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#345#371#0#PHP" expanded="true" />
-            <marker date="1521286406000" expanded="true" signature="1196:1245" ph="SELECT * FRO... users" />
-            <marker date="1521286406000" expanded="true" signature="1740:1795" ph="SELECT missa... user_mission" />
-            <marker date="1521286406000" expanded="true" signature="3075:3122" ph="UPDATE users... " />
-            <marker date="1521286406000" expanded="true" signature="3509:3616" ph="SELECT oauth... khantoken" />
-            <marker date="1521286406000" expanded="true" signature="5426:5480" ph="SELECT qtd F... visualizacao" />
-            <marker date="1521286406000" expanded="true" signature="5657:5713" ph="INSERT INTO visualizacao... " />
-            <marker date="1521286406000" expanded="true" signature="5760:5816" ph="UPDATE visua... " />
-            <marker date="1521286406000" expanded="true" signature="5987:6029" ph="SELECT SUM(q... visualizacao" />
-            <marker date="1521286406000" expanded="true" signature="6400:6499" ph="UPDATE users... " />
-            <marker date="1521286406000" expanded="true" signature="6565:6664" ph="UPDATE users... " />
-            <marker date="1521286406000" expanded="true" signature="6730:6829" ph="UPDATE users... " />
-            <marker date="1521286406000" expanded="true" signature="6894:6991" ph="UPDATE users... " />
-            <marker date="1521286406000" expanded="true" signature="7060:7165" ph="UPDATE users... " />
-            <marker date="1521286406000" expanded="true" signature="7232:7333" ph="UPDATE users... " />
-            <marker date="1521286406000" expanded="true" signature="7400:7501" ph="UPDATE users... " />
-            <marker date="1521286406000" expanded="true" signature="7567:7666" ph="UPDATE users... " />
-            <marker date="1521286406000" expanded="true" signature="7777:7820" ph="SELECT * FRO... users" />
-            <marker date="1521286406000" expanded="true" signature="8188:8243" ph="SELECT missa... user_mission" />
-            <marker date="1521286406000" expanded="true" signature="9569:9616" ph="UPDATE users... " />
-            <marker date="1521286406000" expanded="true" signature="10970:11004" ph="SELECT max(i... " />
-            <marker date="1521286406000" expanded="true" signature="11628:11764" ph="SELECT l.ten... limitador_pontos" />
-            <marker date="1521286406000" expanded="true" signature="12218:12331" ph="UPDATE `user... " />
-            <marker date="1521286406000" expanded="true" signature="12559:12662" ph="INSERT INTO user_mission... " />
-            <marker date="1521286406000" expanded="true" signature="12825:12896" ph="UPDATE `user... " />
-            <marker date="1521286406000" expanded="true" signature="13098:13161" ph="SELECT SUM(p... user_mission" />
-            <marker date="1521286406000" expanded="true" signature="13363:13424" ph="SELECT m_las... users" />
-            <marker date="1521286406000" expanded="true" signature="13671:13735" ph="SELECT ponto... user_mission" />
-            <marker date="1521286406000" expanded="true" signature="13891:13951" ph="SELECT COUNT... users" />
-            <marker date="1521286406000" expanded="true" signature="14098:14143" ph="SELECT SUM(p... user_mission" />
-            <marker date="1521286406000" expanded="true" signature="14293:14326" ph="SELECT COUNT... bug" />
-            <marker date="1521286406000" expanded="true" signature="14841:15010" ph="..." />
-            <marker date="1521286406000" expanded="false" signature="14946:14953" ph="×" />
-            <marker date="1521286406000" expanded="true" signature="15136:15276" ph="SELECT l.ten... limitador_pontos" />
-            <marker date="1521286406000" expanded="true" signature="15846:15953" ph="UPDATE limit... " />
-            <marker date="1521286406000" expanded="true" signature="16018:16116" ph="INSERT INTO limitador_pontos... " />
-            <marker date="1521286406000" expanded="true" signature="16269:16349" ph="SELECT nome users" />
-            <marker date="1521286406000" expanded="true" signature="16712:16767" ph="SELECT missa... user_mission" />
-            <marker date="1521286406000" expanded="true" signature="18718:18777" ph="SELECT COUNT... user_mission" />
-            <marker date="1521286406000" expanded="true" signature="19125:19176" ph="SELECT count... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/cria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="98" column="158" lean-forward="false" selection-start-line="98" selection-start-column="158" selection-end-line="98" selection-end-column="158" />
+          <folding>
+            <marker date="1516566088000" expanded="true" signature="1574:1623" ph="SELECT * FRO... users" />
+            <marker date="1516566088000" expanded="true" signature="1782:2128" ph="INSERT INTO `users`... " />
+            <marker date="1516566088000" expanded="true" signature="3762:3925" ph="INSERT INTO cron_mail_list... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ISSUE_TEMPLATE.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="312">
+            <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <marker date="1521291988000" expanded="true" signature="515:624" ph="CREATE TABLE... adm" />
+            <marker date="1521291988000" expanded="true" signature="724:932" ph="CREATE TABLE... bug" />
+            <marker date="1521291988000" expanded="true" signature="1043:1407" ph="CREATE TABLE... cron_mail_list" />
+            <marker date="1521291988000" expanded="true" signature="1513:1846" ph="CREATE TABLE... khantoken" />
+            <marker date="1521291988000" expanded="true" signature="1959:2208" ph="CREATE TABLE... limitador_pontos" />
+            <marker date="1521291988000" expanded="true" signature="2318:2629" ph="CREATE TABLE... mail_template" />
+            <marker date="1521291988000" expanded="true" signature="2733:2939" ph="CREATE TABLE... missoes" />
+            <marker date="1521291988000" expanded="true" signature="3043:3391" ph="CREATE TABLE... paginas" />
+            <marker date="1521291988000" expanded="true" signature="3496:3717" ph="CREATE TABLE... recovery" />
+            <marker date="1521291988000" expanded="true" signature="3819:4654" ph="CREATE TABLE... users" />
+            <marker date="1521291988000" expanded="true" signature="4763:5006" ph="CREATE TABLE... user_mission" />
+            <marker date="1521291988000" expanded="true" signature="5115:5256" ph="CREATE TABLE... visualizacao" />
+            <marker date="1521291988000" expanded="true" signature="5373:5714" ph="CREATE TABLE... vs_database_diagrams" />
+            <marker date="1521291988000" expanded="true" signature="5799:5854" ph="ALTER TABLE `limitador_pontos`... " />
+            <marker date="1521291988000" expanded="true" signature="5900:5952" ph="ALTER TABLE `mail_template`... " />
+            <marker date="1521291988000" expanded="true" signature="5992:6063" ph="ALTER TABLE `missoes`... " />
+            <marker date="1521291988000" expanded="true" signature="6103:6149" ph="ALTER TABLE `paginas`... " />
+            <marker date="1521291988000" expanded="true" signature="6190:6237" ph="ALTER TABLE `recovery`... " />
+            <marker date="1521291988000" expanded="true" signature="6275:6377" ph="ALTER TABLE `users`... " />
+            <marker date="1521291988000" expanded="true" signature="6422:6535" ph="ALTER TABLE `user_mission`... " />
+            <marker date="1521291988000" expanded="true" signature="6580:6631" ph="ALTER TABLE `visualizacao`... " />
+            <marker date="1521291988000" expanded="true" signature="6730:6806" ph="ALTER TABLE `limitador_pontos`... " />
+            <marker date="1521291988000" expanded="true" signature="6858:6930" ph="ALTER TABLE `mail_template`... " />
+            <marker date="1521291988000" expanded="true" signature="6976:7043" ph="ALTER TABLE `paginas`... " />
+            <marker date="1521291988000" expanded="true" signature="7090:7158" ph="ALTER TABLE `recovery`... " />
+            <marker date="1521291988000" expanded="true" signature="7202:7267" ph="ALTER TABLE `users`... " />
+            <marker date="1521291988000" expanded="true" signature="7318:7390" ph="ALTER TABLE `user_mission`... " />
+            <marker date="1521291988000" expanded="true" signature="7441:7513" ph="ALTER TABLE `visualizacao`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="480">
+            <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/defaults.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/sampleConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="72" lean-forward="false" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="62" lean-forward="false" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/envs/macbook-pro-de-tiago.local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#462#488#0#PHP" expanded="true" />
+            <marker date="1521287632000" expanded="true" signature="1410:1459" ph="SELECT * FRO... users" />
+            <marker date="1521287632000" expanded="true" signature="1922:1977" ph="SELECT missa... user_mission" />
+            <marker date="1521287632000" expanded="true" signature="3257:3304" ph="UPDATE users... " />
+            <marker date="1521287632000" expanded="true" signature="3691:3798" ph="SELECT oauth... khantoken" />
+            <marker date="1521287632000" expanded="true" signature="5608:5662" ph="SELECT qtd F... visualizacao" />
+            <marker date="1521287632000" expanded="true" signature="5839:5895" ph="INSERT INTO visualizacao... " />
+            <marker date="1521287632000" expanded="true" signature="5942:5998" ph="UPDATE visua... " />
+            <marker date="1521287632000" expanded="true" signature="6169:6211" ph="SELECT SUM(q... visualizacao" />
+            <marker date="1521287632000" expanded="true" signature="6582:6681" ph="UPDATE users... " />
+            <marker date="1521287632000" expanded="true" signature="6747:6846" ph="UPDATE users... " />
+            <marker date="1521287632000" expanded="true" signature="6912:7011" ph="UPDATE users... " />
+            <marker date="1521287632000" expanded="true" signature="7076:7173" ph="UPDATE users... " />
+            <marker date="1521287632000" expanded="true" signature="7242:7347" ph="UPDATE users... " />
+            <marker date="1521287632000" expanded="true" signature="7414:7515" ph="UPDATE users... " />
+            <marker date="1521287632000" expanded="true" signature="7582:7683" ph="UPDATE users... " />
+            <marker date="1521287632000" expanded="true" signature="7749:7848" ph="UPDATE users... " />
+            <marker date="1521287632000" expanded="true" signature="7959:8002" ph="SELECT * FRO... users" />
+            <marker date="1521287632000" expanded="true" signature="8370:8425" ph="SELECT missa... user_mission" />
+            <marker date="1521287632000" expanded="true" signature="9751:9798" ph="UPDATE users... " />
+            <marker date="1521287632000" expanded="true" signature="11152:11186" ph="SELECT max(i... " />
+            <marker date="1521287632000" expanded="true" signature="11810:11946" ph="SELECT l.ten... limitador_pontos" />
+            <marker date="1521287632000" expanded="true" signature="12400:12513" ph="UPDATE `user... " />
+            <marker date="1521287632000" expanded="true" signature="12741:12844" ph="INSERT INTO user_mission... " />
+            <marker date="1521287632000" expanded="true" signature="13007:13078" ph="UPDATE `user... " />
+            <marker date="1521287632000" expanded="true" signature="13280:13343" ph="SELECT SUM(p... user_mission" />
+            <marker date="1521287632000" expanded="true" signature="13545:13606" ph="SELECT m_las... users" />
+            <marker date="1521287632000" expanded="true" signature="13853:13917" ph="SELECT ponto... user_mission" />
+            <marker date="1521287632000" expanded="true" signature="14073:14133" ph="SELECT COUNT... users" />
+            <marker date="1521287632000" expanded="true" signature="14280:14325" ph="SELECT SUM(p... user_mission" />
+            <marker date="1521287632000" expanded="true" signature="14475:14508" ph="SELECT COUNT... bug" />
+            <marker date="1521287632000" expanded="true" signature="15023:15192" ph="..." />
+            <marker date="1521287632000" expanded="false" signature="15128:15135" ph="×" />
+            <marker date="1521287632000" expanded="true" signature="15318:15458" ph="SELECT l.ten... limitador_pontos" />
+            <marker date="1521287632000" expanded="true" signature="16028:16135" ph="UPDATE limit... " />
+            <marker date="1521287632000" expanded="true" signature="16200:16298" ph="INSERT INTO limitador_pontos... " />
+            <marker date="1521287632000" expanded="true" signature="16451:16531" ph="SELECT nome users" />
+            <marker date="1521287632000" expanded="true" signature="16894:16949" ph="SELECT missa... user_mission" />
+            <marker date="1521287632000" expanded="true" signature="18900:18959" ph="SELECT COUNT... user_mission" />
+            <marker date="1521287632000" expanded="true" signature="19307:19358" ph="SELECT count... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="72">
+            <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="72">
+            <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="408">
+            <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
