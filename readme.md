@@ -23,6 +23,9 @@ Se você deseja colaborar, seja bem vindo! Acesse as issues do projeto e escolha
 
 # Banco de dados
 
+A estrutura inicial do banco pode ser encontrada em /config/database.sql.
+
+
 ## Queries úteis
 
 Usuários que nunca logaram:
