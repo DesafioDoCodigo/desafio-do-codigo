@@ -9,7 +9,7 @@ Foi criado por [Soraia Novaes](http://professoragoogle.com.br/) para auxiliar cr
 
 ## Este repositório
 
-É o repositório único do projeto. O código foi implementado em PHP por alguns voluntários e que agora está sendo atualizado para um padrão mais limpo e moderno de código, a partir da iniciativa de [Tiago Gouvêa](http://www.tiagogouvea.com.br). Tudo está em português, incluíndo comentários em códigos, para permitir que mais pessoas contribuam com o projeto.
+É o repositório único do projeto. O código foi implementado em PHP por alguns voluntários e que agora está **sendo atualizado para um padrão mais limpo e moderno de código**, a partir da iniciativa de [Tiago Gouvêa](http://www.tiagogouvea.com.br). Tudo está em português, incluíndo comentários em códigos, para permitir que mais pessoas contribuam com o projeto.
 
 # Contribuindo
 
