@@ -1,29 +1,43 @@
 <?php
 
+
+
+require dirname(__FILE__) . "/../config/index.php";
+
+// Definir Error level
+if (Config::ERROR_REPORTING_LEVEL){
+    error_reporting(Config::ERROR_REPORTING_LEVEL);
+}
+
+// Autoloading
+require __DIR__ . '/../vendor/autoload.php';
+
+require dirname(__FILE__) . "/../db.php";
+
 if ($MANUTENCAO && $_SERVER['REMOTE_ADDR'] != '191.251.52.215') {
     echo "Manutenção temporária. Tente novamente em 2 minutos.";
     exit;
 }
 session_start();
 
-require dirname(__FILE__) . "/../config/index.php";
-require dirname(__FILE__) . "/../db.php";
-
-
-// Autoloading
-require __DIR__ . '/../vendor/autoload.php';
 
 // Setup de rollbar
 use Rollbar\Payload\Level;
 use \Rollbar\Rollbar;
-$config = array(
-    'access_token' => 'ead30c419b9944d48210e0564df46bd1',
-    'environment' => 'production',
-    'root' => '/Users/brian/www/myapp'
-);
-$set_exception_handler = true;
-$set_error_handler = true;
-Rollbar::init($config, $set_exception_handler, $set_error_handler);
+
+if (Config::ROLLBAR_TOKEN_SERVER) {
+    $config = array(
+        'access_token' => Config::ROLLBAR_TOKEN_SERVER,
+        'environment' => Config::ROLLBAR_ENVIRONMENT,
+        'root' => __DIR__ . '/../'
+    );
+    $set_exception_handler = true;
+    $set_error_handler = true;
+    Rollbar::init($config, Config::ROLLBAR_EXCEPTION_HANDLER, Config::ROLLBAR_ERROR_HANDLER);
+}
+
+
+
 
 //verifica se fez requizição de destruir section    
 if ($_GET['d']) {
@@ -62,8 +76,8 @@ function verifica_login($login, $pass)
         $_SESSION['m_last'] = $lin['m_last'];
         /*while($i < max_m()){
             $i++;
-            
-            $_SESSION['m_'.$i] = $lin['m_'.$i];                    
+
+            $_SESSION['m_'.$i] = $lin['m_'.$i];
         }*/
 
         $missionstatus = mysqli_query($mysql, "SELECT missao, pontos FROM user_mission WHERE userid = " . $lin['id'] . " ");
