@@ -54,6 +54,8 @@ if ($_POST['video']) {
 	<p>Assista ao vídeo “Você pode aprender qualquer coisa” e responda ao quiz abaixo.</p>
     <p>Estudantes que acreditam que a sua capacidade e inteligência pode crescer e mudar, também conhecida como mentalidade de crescimento, superam aqueles que pensam que a sua capacidade e inteligência são fixas. 
     </p>
+	 <p>As atividades de mentalidade de crescimento do <a href="https://pt.khanacademy.org/partner-content/learnstorm-mindset-activities-17" target="_blank">Desafio Khan Academy</a> foram criadas para motivar os alunos a aprender e ir cada vez mais longe. Conforme você aprende sobre o cérebro, você ganha medalhas de edições limitadas.</p>
+
 	<p align="center"><kbd>“Muitas das verdades que temos dependem de nosso ponto de vista.”</kbd> </p>
 	<div style="clear: both;"></div>
     <div class="tips">
