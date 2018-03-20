@@ -2,3 +2,4 @@
 /config/envs/
 /vendor/
 .idea
+.vscode
