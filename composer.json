@@ -1,7 +1,0 @@
-{
-  "name": "TiagoGouvea/desafio_do_codigo",
-  "version": "0.0.1",
-  "require": {
-    "rollbar/rollbar": "^1.4"
-  }
-}

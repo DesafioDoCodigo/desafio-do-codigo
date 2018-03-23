@@ -1,4 +1,0 @@
-[29-Nov-2016 08:42:24 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/desaf342/public_html/desafio/php/oauth-php/example/server/core/init.php on line 53
-[29-Nov-2016 08:42:24 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'desaf342'@'localhost' (using password: NO) in /home/desaf342/public_html/desafio/php/oauth-php/example/server/core/init.php on line 53
-[29-Nov-2016 10:01:15 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/desaf342/public_html/desafio/php/oauth-php/example/server/core/init.php on line 53
-[29-Nov-2016 10:01:15 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'desaf342'@'localhost' (using password: NO) in /home/desaf342/public_html/desafio/php/oauth-php/example/server/core/init.php on line 53
