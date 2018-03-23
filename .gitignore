@@ -4,3 +4,6 @@
 .idea
 .vscode
 .DS_Store
+/cache/*
+!/cache/.gitkeep
+/app/settings.php
