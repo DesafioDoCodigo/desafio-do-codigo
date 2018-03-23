@@ -591,10 +591,8 @@ function calc_idade($data_nasc)
     if ($data_nasc[1] == $data[1])
         if ($data_nasc[0] <= $data[0]) {
             return $anos;
-            break;
         } else {
             return $anos - 1;
-            break;
         }
 
     if ($data_nasc[1] < $data[1])
