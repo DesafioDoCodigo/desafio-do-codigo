@@ -17,16 +17,12 @@ class AuthMiddleware
 
     public function __invoke( Request $request, Response $response, callable $next) {
 
-        $userDAO = new UserDAO($this->container->get('db'));
-
-        if(!isset($_SESSION['id']) || ($user = $userDAO->getById($_SESSION['id'])) == null )
+        if(!$login)
             return $response->withRedirect($this->container->get('router')->pathFor('login'));
 
 
+        return $next($request, $response);
 
-        $this->container->get('view')['loggedUser'] = $user;
-        $newRequest = $request->withAttribute('user', $user);
 
-        return $next($newRequest, $response);
     }
 }
