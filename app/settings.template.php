@@ -1,7 +1,8 @@
 <?php
 /**
  * Este é o arquivo de configurações para o Desafio do Código funcionar em seu servidor local.
- * Altere as configurações obrigatórias apenas, no caso "db" (Conexão com o Banco)
+ * Não altere o settings.template.php!
+ * Copie ele para settings.php e então altere as configurações obrigatórias apenas, no caso "db" (Conexão com o Banco)
  */
 return [
     'settings' => [
@@ -12,8 +13,10 @@ return [
         // Conexão com o Banco
         'db' => [
             'driver'   => 'pdo_mysql',
+            'host'     => '',
+            'port'     => '',
             'user'     => '',
-            'password' => '',
+            'pass' => '',
             'dbname'   => ''
         ],
 

@@ -21,3 +21,15 @@ Todos aqueles que tiverem ao menos uma issue feita, levada para produção, rece
 
 # Criando Issues
 Caso precise criar novas issues, você responder as perguntas propostas em [ISSUE_TEMPLATE.md](ISSUE_TEMPLATE.md), para que todos consigam entender a demanda e juntos acharmos uma prioridade. Sempre seja educado e apresente sua demanda de forma positiva, as pessoas irão se identificar (ou não) com sua issue, para que ela seja realmente feita.
+
+
+# Explicação do modelo
+
+Passo a passo explicando como tudo acontece.
+
+- Rota
+- Controller
+- Chama o model
+- Popula array
+- Renderiza no Twig
+- Template do Twig
