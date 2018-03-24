@@ -2,6 +2,7 @@
 // DIC configuration
 $container = $app->getContainer();
 
+
 //Smarty
 $container['view'] = function ($container) {
     $view = new \Slim\Views\Twig($container['settings']['view']['templatePath'], [

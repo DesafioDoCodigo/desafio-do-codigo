@@ -6,7 +6,7 @@ use Interop\Container\ContainerInterface;
 use Slim\Http\Request;
 use Slim\Http\Response;
 
-class HomeController
+class DesafioController
 {
 
     private $container;
@@ -18,7 +18,7 @@ class HomeController
 
     public function indexAction(Request $request, Response $response, $args)
     {
-        return $this->container->view->render($response, 'home.twig');
+        return $this->container->view->render($response, '/desafio/home.twig');
     }
 
 

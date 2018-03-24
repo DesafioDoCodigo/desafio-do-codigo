@@ -1,0 +1,11 @@
+body {
+    background: #f8f8f8;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    color: #000;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 0 1px 4px rgba(0,0,0,.2);
+}

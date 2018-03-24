@@ -1,9 +1,13 @@
-# Created by .ignore support plugin (hsz.mobi)
-/config/envs/
-/vendor/
+# Arquivos do computador e IDE
 .idea
 .vscode
 .DS_Store
+
+# Dependencias
+composer.phar
+/vendor/
+
+# Coisas só suas
 /cache/*
 !/cache/.gitkeep
 /app/settings.php

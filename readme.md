@@ -23,8 +23,11 @@ Ficaremos muitos felizes em ver você contribuindo conosco! Se esse é seu desej
 
 Optamos por usar frameworks mais simples, para que jovens e estudantes possam trabalhar bem com o projeto. Estamos usando: 
 
+* PHP 7 - Para que tudo funcione como esperado
+* (Composer)[https://getcomposer.org] - Gerenciador de dependências 
 * (Slim Framework)[https://www.slimframework.com/] - É quem carrega a base do projeto, define as rotas e lida com as requisições
 * (Twig)[https://twig.symfony.com] - É o responsável por renderizar as views, mesclar os dados fornecidos pelo PHP com o HTML
+* (Bootstrap)[https://getbootstrap.com/] - Para manter as views fáceis de serem construídas e sempre responsivas
 
 A estrutura de pastas do projeto segue o padrão do Slim, com poucas modificações:
 
@@ -54,6 +57,8 @@ Certamente em 99% do tempo você estará trabalhando nos arquivos das pastas **C
 1. Acesse a pasta do projeto e execute ``php composer.phar install`` para instalar as dependências;
 1. Dê seu navegado, acesse seu localhost, algo como ``http://localhost/desafio_do_codigo/public/``. Você verá as instruções para concluir sua configuração;
 1. Crie um arquivo settings.php em /app/, usando como base o settings.template.php
+
+* Será necessário ter permissão de escrita na pasta /cache/. Se você usa Mac ou Linux precisará dar esta permissão pelo terminal.
 
 Tudo pronto para programar! :D
 
