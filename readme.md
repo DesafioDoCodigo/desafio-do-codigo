@@ -24,10 +24,10 @@ Ficaremos muitos felizes em ver você contribuindo conosco! Se esse é seu desej
 Optamos por usar frameworks mais simples, para que jovens e estudantes possam trabalhar bem com o projeto. Estamos usando: 
 
 * PHP 7 - Para que tudo funcione como esperado
-* (Composer)[https://getcomposer.org] - Gerenciador de dependências 
-* (Slim Framework)[https://www.slimframework.com/] - É quem carrega a base do projeto, define as rotas e lida com as requisições
-* (Twig)[https://twig.symfony.com] - É o responsável por renderizar as views, mesclar os dados fornecidos pelo PHP com o HTML
-* (Bootstrap)[https://getbootstrap.com/] - Para manter as views fáceis de serem construídas e sempre responsivas
+* [Composer](https://getcomposer.org) - Gerenciador de dependências 
+* [Slim Framework](https://www.slimframework.com/) - É quem carrega a base do projeto, define as rotas e lida com as requisições
+* [Twig](https://twig.symfony.com) - É o responsável por renderizar as views, mesclar os dados fornecidos pelo PHP com o HTML
+* [Bootstrap](https://getbootstrap.com/) - Para manter as views fáceis de serem construídas e sempre responsivas
 
 A estrutura de pastas do projeto segue o padrão do Slim, com poucas modificações:
 
