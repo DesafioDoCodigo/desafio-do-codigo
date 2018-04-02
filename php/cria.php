@@ -28,6 +28,8 @@ $senha = password_hash($senhaaberta, PASSWORD_BCRYPT);
 $ip = ipUser();
 $tipo = "user";
 $m_last = "0";
+$total = 0;
+$tutor = "";
 
 if (!preg_match("/[A-Z0-9._%+-]+@(.*)/i", $email)){
 
@@ -53,7 +55,7 @@ $query = mysqli_query($mysql, $search);
 if(mysqli_num_rows($query) > 0){
 	echo"ERRO:Nome de usuário já existente!";
 }else{
-	$query = mysqli_query($mysql, "INSERT INTO `users` (`id`, `login` ,`nome` ,`sexo` ,`senha` ,`email` ,`ip` ,`autoriza` ,`serie` ,`cidade` ,`escola` ,`nasc` ,`telefone` ,`apelido` , `tipo`, `m_last`) VALUES (NULL, '$login',  '$nome',  '$sexo',  '$senha',  '$email',  '$ip',  '$autoriza',  '$serie',  '$cidade',  '$escola',  '$nasc',  '$telefone',  '$apelido', '$tipo', '$m_last')");
+	$query = mysqli_query($mysql, "INSERT INTO `users` (`id`, `login` ,`nome` ,`sexo` ,`senha` ,`email` ,`ip` ,`autoriza` ,`serie` ,`cidade` ,`escola` ,`nasc` ,`telefone` ,`apelido` , `tipo`, `m_last`, `total`, `tutor`) VALUES (NULL, '$login',  '$nome',  '$sexo',  '$senha',  '$email',  '$ip',  '$autoriza',  '$serie',  '$cidade',  '$escola',  '$nasc',  '$telefone',  '$apelido', '$tipo', '$m_last', '$total', '$tutor')");
 	if(mysqli_affected_rows($mysql) > 0){
 
 		$id = mysqli_insert_id($mysql);
