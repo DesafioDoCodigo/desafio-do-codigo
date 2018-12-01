@@ -82,4 +82,4 @@ $app->get('/teste/', '\App\Controller\TesteController:indexAction')->setName('te
 
 // Rotas de teste
 $app->get('/cron/', '\App\Controller\CronController:indexAction')->setName('cronIndex');
-$app->get('/cron/mautic/sync/', '\App\Controller\CronController:mauticSyncAction')->setName('cronMauticSync');
+//$app->get('/cron/mautic/sync/', '\App\Controller\CronController:mauticSyncAction')->setName('cronMauticSync');
