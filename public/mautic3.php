@@ -10,14 +10,14 @@ session_start();
 
 $publicKey = '';
 $secretKey = '';
-$callback  = 'https://www.tiagogouvea.com.br:443/mauticTest/';
+$callback  = '';
 
-$baseUrl = 'http://br410.teste.website/~desaf342/mautic/';
-$clientKey = '5zutalkcfns440kww4ww0wo448ckcckos8g8ogg40sgc4gs48c';
-$clientSecret = '5muxdt5k3g088skkg8gg40g8skkoo88koo8o0kg848k804kcgo';
+$baseUrl = '';
+$clientKey = '';
+$clientSecret = '';
 
-$accessToken = '5h29ddw7jakogoo8ww8cs8gwkw00o0o80woowkcww480k0gcg';
-$accessTokenSecret = 'o47lwvtjm1ww8sos00088s0w480kkcowgs8gc0wkw8wgc0kw0';
+$accessToken = '';
+$accessTokenSecret = '';
 
 // If you already have the access token, et al, pass them in as well to prevent the need for reauthorization
 //$settings['accessToken']        = $accessToken;

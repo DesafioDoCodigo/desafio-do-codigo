@@ -10,16 +10,16 @@ session_start();
 
 $publicKey = '';
 $secretKey = '';
-$callback  = 'https://www.tiagogouvea.com.br:443/mauticTest/';
-$accessToken = 'NGIxMmE1OTdhMzVkYmVhYWZhZmE1MjIzOTg4NDM4MWJiNjU3YmU1MWQxZGY1NmVlZjNiZTg5ZWY3ZmU3OWZlOQ';
+$callback  = '';
+$accessToken = '';
 
 // ApiAuth->newAuth() will accept an array of Auth settings
 $settings = array(
-    'baseUrl'          => 'http://br410.teste.website/~desaf342/mautic/',       // Base URL of the Mautic instance
+    'baseUrl'          => '',       // Base URL of the Mautic instance
     'version'          => 'OAuth2', // Version of the OAuth can be OAuth2 or OAuth1a. OAuth2 is the default value.
-    'clientKey'        => '1_5wv5edq4qnocooso0gswgc08wgk0k044kk0sss4w8k8kog8go0',       // Client/Consumer key from Mautic
-    'clientSecret'     => '28zhy4ib0668ww08s8okocc44ocgs0sow4cgokgs0kkc8gos4s',       // Client/Consumer secret key from Mautic
-    'callback'         => 'https://www.tiagogouvea.com.br:443/mauticTest/',        // Redirect URI/Callback URI for this script
+    'clientKey'        => '',       // Client/Consumer key from Mautic
+    'clientSecret'     => '',       // Client/Consumer secret key from Mautic
+    'callback'         => '',        // Redirect URI/Callback URI for this script
 );
 
 if (isset($_GET['state'])) {
@@ -33,9 +33,7 @@ if (isset($_GET['state'])) {
 $settings['accessToken']        = $accessToken;
 //$settings['accessTokenSecret']  = $accessTokenSecret; //for OAuth1.0a
 //$settings['accessTokenExpires'] = $accessTokenExpires; //UNIX timestamp
-$settings['refreshToken']       =  'NGExYzY5MjA3ZDZhZDY4N2M5ODZiNDg4NjRhZmRkMzQwN2Y4NGYzYjg0ZGM2YWMyY2ViMzU1MDI5OGFlY2UwZg';
-
-//array(2) { ["state"]=> string(32) "8213635c5d447fc9469028e15f5769e0" ["code"]=> string(86) "NWY2MzY0YTY1NTQwZjhiMzMxODAwYjhiNzM5OTQyYTJhMWZmNDViYmEwZDM2ZDU5YWUwZWY1NWE5ZWVjNTIwMA" }
+$settings['refreshToken']       =  '';
 
 // Initiate the auth object
 $initAuth = new ApiAuth();
