@@ -2,8 +2,8 @@
 
 namespace App\Controller;
 
-use App\Model\User;
-use App\Model\UserDAO;
+use App\Model\UsuarioOld;
+use App\Model\UsuarioOldDAO;
 use Interop\Container\ContainerInterface;
 use Slim\Http\Request;
 use Slim\Http\Response;
@@ -23,7 +23,7 @@ class TesteController
         // Teste de conexão e DAO
         echo "<h1>Conectar ao banco</h1>";
         $conexao = $this->container->db;
-        $userDao = UserDAO::getInstance($conexao);
+        $userDao = UsuarioOldDAO::getInstance($conexao);
         var_dump($conexao);
 
         $data = [];
@@ -31,7 +31,7 @@ class TesteController
         echo "<h1>Inserir usuário</h1>";
 
         // Teste de insert
-        $user = new User();
+        $user = new UsuarioOld();
         $user->nome = '_Tiago_';
         $user->login = '_Tiago_';
         $user->sexo = '_Tiago_';

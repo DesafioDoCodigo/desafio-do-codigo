@@ -11,3 +11,4 @@ composer.phar
 /cache/*
 !/cache/.gitkeep
 /app/settings.php
+/app/settings.prod.php

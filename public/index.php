@@ -1,5 +1,7 @@
 <?php
 
+use App\Command\MauticImportar;
+
 date_default_timezone_set('America/Sao_Paulo');
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
@@ -15,13 +17,26 @@ if (!file_exists($settingsFile)) {
 }
 $settings = require $settingsFile;
 
-
 // Validar configurações
 // var_dump($settings);
 $cachePath = $settings['settings']['view']['cachePath'];
 if ($cachePath !== false && !isWritablePath(realpath($cachePath))) {
     die("É preciso ter permissão de escrita na pasta " . realpath($cachePath));
 }
+
+// Definir níveis de erros antes de iniciar o app http://php.net/manual/pt_BR/function.error-reporting.php
+if ($settings['settings']['environment']=="dev"){
+    error_reporting(E_ALL); // Ver todos os erros que acontecerem
+} else {
+    error_reporting(0); // Não exibir erros para o usuário nunca
+}
+
+// @todo mover isso pra outro lugar, um bootstrap mais organizado
+$settings['commands'] = [
+    'MauticImportar' => MauticImportar::class
+];
+
+// Decorar settings com coisas a mais
 
 // Iniciar o app
 $app = new \Slim\App($settings);

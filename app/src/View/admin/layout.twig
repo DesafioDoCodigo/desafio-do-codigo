@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>{{adminTitle}}</title>
+    <link href="{{ base_url() }}/css/desafio-style.css" rel="stylesheet"/>
+
+    <!-- Incluir bibliotecas (jQuery, bootstrap) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Incluir editor css/js (summernote) -->
+    <script src="https://cdn.ckeditor.com/ckeditor5/11.0.1/classic/ckeditor.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><b>{{adminTitle}}</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item {{ slug=='' ? "active" }}">
+                <a class="nav-link" href="{{ path_for('adminIndex') }}">Início <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item {{ slug=='trilha' ? "active" }}">
+                <a class="nav-link" href="{{ base_url() }}/admin/jornada/">Jornadas</a>
+            </li>
+            <li class="nav-item {{ slug=='usuario' ? "active" }}">
+                <a class="nav-link" href="{{ base_url() }}/admin/usuario/">Usuários</a>
+            </li>
+
+            <div class="vertical-divider">&nbsp;</div>
+            <li class="nav-item {{ slug=='sistema' ? "active" }}">
+                <a class="nav-link" href="{{ base_url() }}/admin/sistema/">Sistema</a>
+            </li>
+            <div class="vertical-divider">&nbsp;</div>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Codewars
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="{{ base_url() }}/admin/usuarioOld/">Usuários</a>
+                </div>
+            </li>
+        </ul>
+        <!---
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+        --->
+    </div>
+</nav>
+<div class="container-fluid" style="padding: 30px">
+{{ content | raw }}
+</div>
+
+</body>
+</html>

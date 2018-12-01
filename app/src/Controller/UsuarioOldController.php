@@ -2,28 +2,28 @@
 
 namespace App\Controller;
 
+use App\Model\UsuarioOld;
+use App\Model\UsuarioOldDAO;
 use App\Model\TrilhaDAO;
-use App\Model\Desafio;
-use App\Model\DesafioDAO;
 use ReflectionClass;
 use Slim\Http\Request;
 use Slim\Http\Response;
 
-class DesafioController extends AdminController
+class UsuarioOldController extends AdminController
 {
-    protected $slug = "desafio";
+    protected $slug = "usuarioOld";
 
     public function indexAction(Request $request, Response $response, $args)
     {
-        // Obter DAO de desafios
-        /* @var $dao DesafioDAO */
+        // Obter DAO de usuarios
+        /* @var $dao UsuarioOldDAO */
         $dao = $this->getDAO();
 
-        // Obter desafios
-        $desafios = $dao->getAll();
+        // Obter usuarios
+        $usuarios = $dao->getWhere('','id desc',10);
 
         // Renderizar lista
-        $content = $this->fetchView("admin/desafio/lista.twig", ['registros' => $desafios]);
+        $content = $this->fetchView("admin/usuarioOld/lista.twig", ['registros' => $usuarios]);
 
         return $this->renderLayout($response, $content);
     }
@@ -37,9 +37,7 @@ class DesafioController extends AdminController
      */
     public function addAction(Request $request, Response $response, $args)
     {
-        $daoTrilha = TrilhaDAO::getInstance($this->container->db);
-        $trilha = $daoTrilha->findById($args['id']);
-        $content = $this->fetchView("admin/desafio/form.twig", ['trilha' => $trilha]);
+        $content = $this->fetchView("admin/usuarioOld/form.twig");
         return $this->renderLayout($response, $content);
     }
 
@@ -52,18 +50,15 @@ class DesafioController extends AdminController
      */
     public function addPostAction(Request $request, Response $response, $args)
     {
-        // O id da trilha, está na URL.. exemplo: /admin/trilha/1/desafio/incluir/
-        $idTrilha = $args['id'];
         $vars = $request->getParsedBody();
-        $vars['id_trilha'] = $idTrilha;
         try {
-            /* @var $dao DesafioDAO */
+            /* @var $dao UsuarioOldDAO */
             $dao = $this->getDao();
             $dao->insertFromArray($vars);
-            return $this->redirect($response, "trilhaListDesafios", ['id' => $idTrilha]);
+            return $this->redirect($response, "usuarioIndex");
         } catch (\Exception $e) {
             $error = $e->getMessage();
-            $content = $this->fetchView("admin/desafio/form.twig", ["error" => $error, "registro" => $vars]);
+            $content = $this->fetchView("admin/usuarioOld/form.twig", ["error" => $error, "registro" => $vars]);
             return $this->renderLayout($response, $content);
         }
     }
@@ -78,10 +73,8 @@ class DesafioController extends AdminController
      */
     public function editAction(Request $request, Response $response, $args)
     {
-        /* @var $registrto Desafio */
         $registro = $this->getDAO()->findById($args['id']);
-        $trilha = $registro->getTrilha();
-        $content = $this->fetchView("admin/desafio/form.twig", ["trilha"=>$trilha, "registro" => $registro]);
+        $content = $this->fetchView("admin/usuarioOld/form.twig", ["registro" => $registro]);
         return $this->renderLayout($response, $content);
     }
 
@@ -97,13 +90,13 @@ class DesafioController extends AdminController
     {
         $vars = $request->getParsedBody();
         try {
-            /* @var $dao DesafioDAO */
+            /* @var $dao UsuarioOldDAO */
             $dao = $this->getDao();
-            $desafio = $dao->updateFromArray($args['id'], $vars, true);
-            return $this->redirect($response, "trilhaListDesafios", ['id' => $desafio->id_trilha]);
+            $dao->updateFromArray($args['id'], $vars);
+            return $this->redirect($response, "usuarioIndex");
         } catch (\Exception $e) {
             $error = $e->getMessage();
-            $content = $this->fetchView("admin/desafio/form.twig", ["error" => $error, "registro" => $vars]);
+            $content = $this->fetchView("admin/usuarioOld/form.twig", ["error" => $error, "registro" => $vars]);
             return $this->renderLayout($response, $content);
         }
     }
@@ -118,19 +111,19 @@ class DesafioController extends AdminController
      */
     public function deleteAction(Request $request, Response $response, $args)
     {
-        $registro = $this->getDAO()->deleteById($args['id']);
-        return $this->redirect($response, "desafioIndex");
+        $this->getDAO()->deleteById($args['id']);
+        return $this->redirect($response, "usuarioIndex");
     }
 
     /**
      * Retorna o DAO referente a este controller
      * Implementado apenas para forçar o tipo do retorno
      * Pode ser melhorado. :)
-     * @return DesafioDAO
+     * @return UsuarioOldDAO
      */
     protected function getDAO($conexao = null)
     {
-        return parent::getDAO();
+        return parent::getDAO($this->container->dbOld);
     }
 
 

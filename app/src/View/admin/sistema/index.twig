@@ -1,0 +1,40 @@
+<h2>Sistema</h2>
+
+<div class="row">
+    <div class="col-sm-6">
+        <div class="card" >
+            <div class="card-body">
+                <h5 class="card-title">Usuários Codewars</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    Total<br/>
+                    <h2 class="display-1">{{ dados.usuarios.total|number_format(0, ',', '.') }}</h2>
+                </li>
+                <li class="list-group-item">
+                    Emails Inválidos<br/>
+                    <h4 class="display-4">{{ dados.usuarios.emailInvalido|number_format(0, ',', '.') }}</h4>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card" >
+            <div class="card-body">
+                <h5 class="card-title">Mautic</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    Contatos importados<br/>
+                    <h4 class="display-1">{{ dados.mautic.migrados|number_format(0, ',', '.') }}
+                        <small>{{ dados.mautic.migradosPercentual }}%</small>
+                    </h4>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,51 @@
+<h5>{{ registro ? "Ediar Trilha" : "Incluir Trilha" }}</h5>
+<h3>{{ jornada.titulo }}</h3>
+
+{% if error %}
+    <div class="alert alert-danger" role="alert">
+        {{ error }}
+    </div>
+{% endif %}
+
+
+<form method="post">
+    <input type="hidden" class="form-control" name="id_jornada" value="{{ jornada.id }}">
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Titulo</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" name="titulo"
+               value="{{ registro.titulo }}">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Resumo da Trilha</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                  name="resumo">{{ registro.resumo }}</textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="descricao">Descrição da Trilha</label>
+        <textarea class="form-control" id="descricao" rows="3" name="descricao">{{ registro.descricao }}</textarea>
+    </div>
+
+    <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" name="ativa"
+               value="1" {{ registro.ativa ? "checked" }}>
+        <label class="form-check-label" for="exampleCheck1">Ativa</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
+
+<script>
+    // Iniciar editor rico
+    ClassicEditor
+        .create(document.querySelector('#descricao'),
+            {
+                toolbar: [ 'Essentials', 'heading', '|', 'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote' ],
+            }
+        )
+        .catch(error =>{
+        console.error(error);
+    });
+
+    ClassicEditor.builtinPlugins.map( plugin => console.log(plugin.pluginName) );
+</script>

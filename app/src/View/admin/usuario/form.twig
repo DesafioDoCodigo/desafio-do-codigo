@@ -1,0 +1,36 @@
+<h5>{{ registro ? "Editar Usuário" : "Incluir Usuário" }}</h5>
+<h3>{{ registro.titulo }}</h3>
+
+{% if error %}
+    <div class="alert alert-danger" role="alert">
+        {{ error }}
+    </div>
+{% endif %}
+
+<form method="post">
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" id="nome" name="nome" value="{{ registro.nome }}">
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" class="form-control" id="email" name="email" value="{{ registro.email }}">
+    </div>
+
+    <div class="form-group">
+        <label for="login">Login</label>
+        <input type="text" class="form-control" id="login" name="login" value="{{ registro.login }}">
+    </div>
+
+    <div class="form-group">
+        <label for="tipo">Tipo de Usuário</label>
+        <select class="form-control" id="tipo" name="tipo">
+            <option value="tutor" {{ registro.tipo == "tutor" ? "selected" : "" }}>Tutor</option>
+            <option value="admin" {{ registro.tipo == "admin" ? "selected" : "" }}>Administrador</option>
+            <option value="usuario" {{ registro.tipo == "usuario" ? "selected" : "" }}>Usuário</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>

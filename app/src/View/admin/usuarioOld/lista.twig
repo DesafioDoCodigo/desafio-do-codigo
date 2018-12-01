@@ -1,0 +1,24 @@
+<h2>Usuários Codewars</h2>
+
+<table class="table border">
+    <thead class="thead-dark">
+    <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Login</th>
+        <th scope="col">Acesso</th>
+        <th scope="col">Registro</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for registro in registros %}
+    <tr>
+        <th scope="row">{{ registro.nome }}</th>
+        <td>{{ registro.login }}</td>
+        <td>{{ registro.last_login }}</td>
+        <td>{{ registro.DataAdd }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+<small>Omitindo milhares de usuários da exibição. Esta rota é apenas pra saber que está tudo conectado mesmo... :)</small><br/><br/>

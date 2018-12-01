@@ -2,10 +2,26 @@ body {
     background: #f8f8f8;
     font-family: 'PT Sans', Helvetica, Arial, sans-serif;
     color: #000;
+    margin: 0;
+    padding:0;
 }
 
 h1 {
     font-size: 30px;
     font-weight: 700;
     text-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
+
+
+/* Altura do editor de texto html */
+.ck-editor__editable {
+    min-height: 400px;
+}
+
+/* Divisor de menu */
+.vertical-divider {
+    height: 40px;
+    margin: 0 .5rem;
+    overflow: hidden;
+    border-left: 1px solid #e9ecef;
 }

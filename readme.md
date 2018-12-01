@@ -29,6 +29,10 @@ Optamos por usar frameworks mais simples, para que jovens e estudantes possam tr
 * [Twig](https://twig.symfony.com) - É o responsável por renderizar as views, mesclar os dados fornecidos pelo PHP com o HTML
 * [Bootstrap](https://getbootstrap.com/) - Para manter as views fáceis de serem construídas e sempre responsivas
 
+Algumas bibliotecas extras para ajudar no trabalho:
+* [Respect\Validation](https://github.com/Respect/Validation) - Para validar dados de formulários
+* [Rollbar](https://rollbar.com/) - Para logar todos os erros online, tanto no backend quanto no frontend
+
 A estrutura de pastas do projeto segue o padrão do Slim, com poucas modificações:
 
 ```
@@ -59,6 +63,12 @@ Certamente em 99% do tempo você estará trabalhando nos arquivos das pastas **C
 1. Crie um arquivo settings.php em /app/, usando como base o settings.template.php
 
 * Será necessário ter permissão de escrita na pasta /cache/. Se você usa Mac ou Linux precisará dar esta permissão pelo terminal.
+
+Outra forma de rodar o projeto pode ser executando diretamente na pasta raiz do projeto:
+
+``` 
+php -d display_errors=on  -S localhost:8000 -t public
+```
 
 Tudo pronto para programar! :D
 

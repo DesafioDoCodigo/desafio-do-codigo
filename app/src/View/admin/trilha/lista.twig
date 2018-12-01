@@ -1,0 +1,30 @@
+<h4>{{ jornada.titulo }}</h4>
+<h2>Trilhas</h2>
+
+<table class="table border">
+    <thead class="thead-dark">
+    <tr>
+        <th scope="col">Trilha</th>
+        <th scope="col">Ativa</th>
+        <th scope="col" colspan="2">&nbsp;</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for registro in registros %}
+    <tr>
+        <th scope="row">{{ registro.titulo }}</th>
+        <td>{{ registro.ativa ? "Sim" }}</td>
+        <td>
+            <a href="{{ path_for("trilhaListDesafios",{'id': registro.id}) }}" class="btn btn-outline-primary btn-sm">Desafios</a>
+        </td>
+        <td>
+            <a href="{{ path_for("trilhaEdit",{'id': registro.id}) }}" class="btn btn-outline-secondary btn-sm">Editar</a>
+            <a href="{{ path_for("trilhaDelete",{'id': registro.id}) }}" class="btn btn-outline-secondary btn-sm">Excluir</a>
+        </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+<a href="{{ path_for("jornadaTrilhaIncluir", {'id': jornada.id}) }}" class="btn btn-primary">Incluir Trilha</a>
+

@@ -1,0 +1,29 @@
+<h4>{{ trilha.titulo }}</h4>
+<h2>Desafios</h2>
+
+<table class="table border">
+    <thead class="thead-dark">
+    <tr>
+        <th scope="col">Desafio</th>
+        <th scope="col">Ordem</th>
+        <th scope="col">Ativo</th>
+        <th scope="col">&nbsp;</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for registro in registros %}
+    <tr>
+        <th scope="row">{{ registro.titulo }}</th>
+        <td>{{ registro.ordem }}</td>
+        <td>{{ registro.ativo ? "Sim" : "Não"}}</td>
+        <td>
+            <a href="{{ path_for("desafioEdit",{'id': registro.id}) }}" class="btn btn-outline-secondary btn-sm">Editar</a>
+            <a href="{{ path_for("desafioDelete",{'id': registro.id}) }}" class="btn btn-outline-secondary btn-sm">Excluir</a>
+        </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+<a href="{{ path_for("trilhaDesafioIncluir", {'id': trilha.id}) }}" class="btn btn-primary">Incluir Desafio</a>
+

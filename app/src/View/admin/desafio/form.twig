@@ -1,0 +1,55 @@
+<h5>{{ registro ? "Ediar Desafio" : "Incluir Desafio" }}</h5>
+<h3>{{ trilha.titulo }}</h3>
+
+{% if error %}
+    <div class="alert alert-danger" role="alert">
+        {{ error }}
+    </div>
+{% endif %}
+
+
+<form method="post">
+    <input type="hidden" class="form-control" name="id_trilha" value="{{ trilha.id }}">
+    <div class="form-group">
+        <label for="titulo">Titulo</label>
+        <input type="text" class="form-control" id="titulo" name="titulo"
+               value="{{ registro.titulo }}">
+    </div>
+
+    <div class="form-group">
+        <label for="ordem">Ordem</label>
+        <input type="number" class="form-control" id="ordem" name="ordem"
+               value="{{ registro.ordem }}">
+    </div>
+
+    <div class="form-group">
+        <label for="conteudo">Conteúdo do Desafio</label>
+        <textarea class="form-control" id="conteudo" rows="3" name="conteudo">{{ registro.conteudo }}</textarea>
+    </div>
+
+    <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" name="ativo"
+               value="1" {{ registro.ativo ? "checked" }}>
+        <label class="form-check-label" for="exampleCheck1">Ativo</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
+
+<script>
+    // Iniciar editor rico
+    ClassicEditor
+        .create(document.querySelector('#conteudo'),
+            {
+                alignment: {
+                    options: [ 'left', 'right', 'center' ]
+                },
+                toolbar: [ 'heading', '|', 'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote', '|',  'alignment:left', 'alignment:right', 'alignment:center', 'alignment:justify', 'alignment'],
+            }
+        )
+        .catch(error =>{
+        console.error(error);
+    });
+
+    ClassicEditor.builtinPlugins.map( plugin => console.log(plugin.pluginName) );
+</script>

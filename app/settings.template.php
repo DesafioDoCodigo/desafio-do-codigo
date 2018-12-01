@@ -6,11 +6,14 @@
  */
 return [
     'settings' => [
+        // Ambiente (Só pode ser "dev", "test" ou "production") > Na sua máquina de programador, é "dev"
+        "environment" => "dev",
+
         // Configurações do Slim
         'determineRouteBeforeAppMiddleware' => false,
         'displayErrorDetails' => true,
 
-        // Conexão com o Banco
+        // Conexão com o Banco - REQUERIDO
         'db' => [
             'driver'   => 'pdo_mysql',
             'host'     => '',
@@ -32,5 +35,24 @@ return [
             'googleAnalytics' => '',
             'mauticMtc' => ''
         ],
+
+        // Configurações de integração com Mautic
+        'mautic' => [
+            'baseUrl' => '',
+            'callback' => '',
+            'clientKey' => '',
+            'clientSecret' => '',
+            'accessToken' => '',
+            'accessSecret' => '',
+            'version' => 'OAuth1a'
+        ],
+
+
+        // Configurações do rollbar, para logar todos os erros online
+        'rollbar' => [
+            'access_token' => '',
+            'environment' => 'dev', // deve ser o mesmo do "environment" lá no alto
+            'root' => __DIR__
+        ]
     ],
 ];
