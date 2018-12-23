@@ -72,3 +72,24 @@ php -d display_errors=on  -S localhost:8000 -t public
 
 Tudo pronto para programar! :D
 
+# Organização dos desafios
+
+Na versão antiga o usuário acessava a plataforma e logo via os desafios, que eram fixos. Para esta nova versão temos os Desafios organizados em Trilhas, e Trilhas em Jornadas. 
+
+Exemplo, uma Jornada poderia ser "Programação para crianças", onde teriam várias trilhas, tais como "Começando pelo Sketch Jr", "O segundo grande passo, o Sketch", "Outras forma de programar com blocos". E em cada uma destas trilhas teriam os desafios que seriam efetivamente onde a pessoa aprenderia.
+
+O Desafio do Código pode atender diversos públicos, bastando apenas criamos jornadas, trilhas e desafios para isso.
+
+## Uma jornada
+
+Uma jornada é algo durador e transformador. Podemos imaginar uma jornada "Programação com PHP", que fará uma pessoa aprender tudo que for necessário sobre o PHP. Dentro desta jornada existirão várias trilhas que subdividem o conteúdo em partes menores.
+
+## Uma trilha
+
+Na jornada do PHP, algumas trilhas poderiam ser "Lidando com o servidor local", "O básico do PHP"... e outras tantas trilhas. 
+
+## Um desafio
+
+Um desafio é basicamente algo que a pessoa precisará aprender, realizar, e ser avaliada por isso. Poderia exisitir uma trilha "Utilizando o Git" onde um dos desafios fosse "Realizando um commit e push". Neste desafio seria explicado detalhadamente como é feito um commit e como dar o push pro repositório, por fim haveria um teste ou questionário simples para validar que a pessoa aprendeu mesmo.
+
+Ao concluir um desafio e realizar a avaliação, ela ganha pontos e avança na plataforma, aprendendo cada vez mais.
