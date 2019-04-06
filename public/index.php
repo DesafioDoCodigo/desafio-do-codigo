@@ -24,11 +24,17 @@ if ($cachePath !== false && !isWritablePath(realpath($cachePath))) {
     die("É preciso ter permissão de escrita na pasta " . realpath($cachePath));
 }
 
-// Definir níveis de erros antes de iniciar o app http://php.net/manual/pt_BR/function.error-reporting.php
-if ($settings['settings']['environment']=="dev"){
-    error_reporting(E_ALL); // Ver todos os erros que acontecerem
+// Definir níveis de erros antes de iniciar o app https://stackoverflow.com/questions/50602776/php-error-reporting-production-vs-development
+if ($settings['settings']['environment'] == "dev") {
+    // Ver todos os erros que acontecerem direto no navegador
+    ini_set('display_errors', 1);
+    ini_set('log_errors', 1);
+    error_reporting(E_ALL);
 } else {
-    error_reporting(0); // Não exibir erros para o usuário nunca
+    // Não exibir erros para o usuário nunca
+    ini_set('display_errors', 0);
+    ini_set('log_errors', 1);
+    error_reporting(E_ALL & ~E_DEPRECATED & ~E_STRICT);
 }
 
 // @todo mover isso pra outro lugar, um bootstrap mais organizado

@@ -30,6 +30,8 @@
                     <h4 class="display-1">{{ dados.mautic.migrados|number_format(0, ',', '.') }}
                         <small>{{ dados.mautic.migradosPercentual }}%</small>
                     </h4>
+                    Para importar<br/>
+                    <h4 class="display-4">{{ (dados.usuarios.total-dados.usuarios.emailInvalido-dados.mautic.migrados)|number_format(0, ',', '.') }}</h4>
                 </li>
             </ul>
 

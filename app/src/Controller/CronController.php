@@ -36,10 +36,10 @@ class CronController
     public function mauticSyncAction(Request $request, Response $response, $args)
     {
         $baseUrl = $this->container['settings']['mautic']['baseUrl'];
-        $mauticApi = $this->container->mauticAuth;
+        $auth = $this->container->mauticAuth;
 
         $api = new MauticApi();
-        $contactApi = $api->newApi('contacts', $mauticApi, $baseUrl);
+        $contactApi = $api->newApi('contacts', $auth, $baseUrl);
 
 //        var_dump($mauticApi);
 
@@ -62,7 +62,7 @@ class CronController
         $userDao = UsuarioOldDAO::getInstance($conexao);
 
         // Obter últimos X registros não sincronizados
-        $limit = 15;
+        $limit = 5;
         echo "Limite para obtenção: " . $limit . PHP_EOL;
         $users = $userDao->getWhere("mauticId is null", "id desc", $limit);
 
@@ -114,7 +114,8 @@ class CronController
                 } else {
                     var_dump($response);
                 }
-                var_dump($user);
+                var_dump($response);
+                // var_dump($user);
                 // Atualizar usuários com mauticId 0 para saber que devem ser corrigidos futuramente...
                 $user->mauticId = 0;
                 $userDao->update($user);

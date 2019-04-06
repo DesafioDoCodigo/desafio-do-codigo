@@ -1,5 +1,6 @@
 <?php
 // DIC configuration
+use Mautic\Auth\ApiAuth;
 use Mautic\MauticApi;
 use Rollbar\Rollbar;
 
@@ -31,41 +32,57 @@ $container['mauticAuth'] = function ($container) {
     $clientKey = $container['settings']['mautic']['clientKey'];
     $clientSecret = $container['settings']['mautic']['clientSecret'];
     $callback = $container['settings']['mautic']['callback'];
-    $accessToken = $container['settings']['mautic']['accessToken'];
-    $accessTokenSecret = $container['settings']['mautic']['accessSecret'];
+    $accessToken = isset($_SESSION['accessToken']) ? $_SESSION['accessToken'] : $container['settings']['mautic']['accessToken'];
+    $refreshToken = isset($_SESSION['refreshToken']) ? $_SESSION['refreshToken'] : $container['settings']['mautic']['refreshToken'];
+    $expires = isset($_SESSION['expires']) ? $_SESSION['expires'] : $container['settings']['mautic']['expires'];
 
     // Validar parâmetros
-
     $settings = array(
         'baseUrl' => $baseUrl,
         'clientKey' => $clientKey,
         'clientSecret' => $clientSecret,
         'callback' => $callback,
-        'version' => 'OAuth1a',
+        'version' => 'OAuth2',
         'accessToken' => $accessToken,
-        'accessTokenSecret' => $accessTokenSecret,
-        'accessTokenExpires' => null
-
+        'refreshToken' => $refreshToken,
+        'accessTokenExpires' => $expires
     );
 
     /* @var $auth Mautic\Auth\OAuth */
-    $auth = \Mautic\Auth\ApiAuth::initiate($settings);
+    $initAuth = new ApiAuth();
+    $auth = $initAuth->newAuth($settings);
+    $auth->enableDebugMode();
 
-    if ($auth->validateAccessToken()) {
-        // var_dump("validateAccessToken");
-        if ($auth->accessTokenUpdated()) {
-            // var_dump("accessTokenUpdated");
-            $accessTokenData = $auth->getAccessTokenData();
-            // var_dump($accessTokenData);
-            // @todo Save $accessTokenData
-            // @todo Display success authorization message
+    try {
+        if ($auth->validateAccessToken(false)) {
+            // var_dump("validateAccessToken");
+            if ($auth->accessTokenUpdated()) {
+                // var_dump("accessTokenUpdated");
+                $accessTokenData = $auth->getAccessTokenData();
+                var_dump("accessTokenUpdated");
+                var_dump($accessTokenData);
+                // @todo Save $accessTokenData
+                // @todo Display success authorization message
+                Rollbar::info("AccessTokenUpdated");
+                $_SESSION['accessToken'] = $accessTokenData['access_token'];
+                $_SESSION['refreshToken'] = $accessTokenData['refresh_token'];
+                $_SESSION['expires'] = $accessTokenData['expires'];
+                var_dump("session updated");
+            } else {
+                var_dump("already authorized");
+                // @todo Display info message that this app is already authorized.
+            }
         } else {
-            // var_dump("already authorized");
-            // @todo Display info message that this app is already authorized.
+            // @todo Display info message that the token is not valid.
+            var_dump("token is not valid");
         }
-    } else {
-        // @todo Display info message that the token is not valid.
-        var_dump("token is not valid");
+    } catch (Exception $exception) {
+        Rollbar::critical('mauticAuth fail', $exception);
+        echo "<h2>Exception on dependeces mauticAuth</h2>";
+        echo "<pre>";
+        var_dump($exception);
+        echo "</pre>";
+        die();
     }
 
     return $auth;
@@ -150,7 +167,7 @@ $container['dbOld'] = function ($container) use ($pdo) {
 };
 
 // Iniciar Rollbar (https://rollbar.com
-if ($container['settings']['rollbar'] && $container['settings']['environment'] !== 'dev')
+if ($container['settings']['rollbar'] && ($container['settings']['environment'] !== 'dev' || (isset($container['settings']['rollbar']['run_on_dev']))))
     Rollbar::init($container['settings']['rollbar']);
 
 $container['errorHandler'] = function ($container) {
@@ -175,7 +192,7 @@ $container['errorHandler'] = function ($container) {
         //     ->write('Something went wrong!');
     };
 };
-$container['phpErrorHandler'] = function ($c) {
+$container['phpErrorHandler'] = function ($container) {
     return function ($request, $response, $exception) use ($container) {
 
         if ($container['settings']['environment'] !== 'dev') {
@@ -188,7 +205,7 @@ $container['phpErrorHandler'] = function ($c) {
             die("phpErrorHandler");
         }
 
-        return $c['response']->withStatus(500)
+        return $container['response']->withStatus(500)
             ->withHeader('Content-Type', 'text/html')
             ->write('Something went wrong!');
     };

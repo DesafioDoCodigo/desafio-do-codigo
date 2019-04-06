@@ -33,6 +33,7 @@ class Usuario implements Instancia
 
     public function __set($name, $value)
     {
+        echo "Setando campo não declarado ($name) na classe ".self::class;
         echo $name . " -> " . $value . "<br>";
         // Validar alguns campos antes de salvar
         if ($name == 'email') {

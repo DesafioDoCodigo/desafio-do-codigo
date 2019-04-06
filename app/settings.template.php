@@ -43,8 +43,9 @@ return [
             'clientKey' => '',
             'clientSecret' => '',
             'accessToken' => '',
-            'accessSecret' => '',
-            'version' => 'OAuth1a'
+            'refreshToken' => '',
+            'expires' => '',
+            'version' => 'OAuth2'
         ],
 
 
@@ -52,6 +53,7 @@ return [
         'rollbar' => [
             'access_token' => '',
             'environment' => 'dev', // deve ser o mesmo do "environment" lá no alto
+            'run_on_dev' => false, // indica que Rollbar deverá funcionar em dev
             'root' => __DIR__
         ]
     ],

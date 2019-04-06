@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>{{ siteTitle }}</title>
+    <!-- Includes locais (css,js) -->
+    <link href="{{ base_url() }}/css/site.css" rel="stylesheet"/>
+    <script src="{{ base_url() }}/js/site.js"></script>
+
+    <!-- Incluir bibliotecas (jQuery, bootstrap) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    <!-- FontAwesonme -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ base_url() }}/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ base_url() }}/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ base_url() }}/favicon/favicon-16x16.png">
+    <link rel="manifest" href="{{ base_url() }}/favicon/site.webmanifest">
+    <link rel="mask-icon" href="{{ base_url() }}/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="{{ base_url() }}/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="{{ base_url() }}/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark bg-black">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="#">
+                <img src="{{ base_url() }}/images/logo-horizontal-200w.png" alt="{{ siteTitle }}"  class="d-inline-block align-top" >
+            </a>
+        </a>
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item {{ slug=='' ? "active" }}">
+                <a class="nav-link" href="{{ path_for('adminIndex') }}">
+                    Início <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item {{ slug=='trilha' ? "active" }}">
+                <a class="nav-link" href="{{ base_url() }}/admin/jornada/">
+                    O que aprendo
+                </a>
+            </li>
+            <li class="nav-item {{ slug=='trilha' ? "active" }}">
+                <a class="nav-link" href="{{ base_url() }}/admin/jornada/">
+                    Escolas
+                </a>
+            </li>
+            <li class="nav-item {{ slug=='trilha' ? "active" }}">
+                <a class="nav-link" href="{{ base_url() }}/admin/jornada/">
+                    Voluntários
+                </a>
+            </li>
+            <li class="nav-item {{ slug=='trilha' ? "active" }}">
+                <a class="nav-link" href="{{ base_url() }}/admin/jornada/">
+                    Blog
+                </a>
+            </li>
+
+            <li class="nav-item {{ slug=='trilha' ? "active" }}">
+                <a class="nav-link" href="{{ base_url() }}/admin/jornada/">
+                    Quem somos
+                </a>
+            </li>
+
+            <li class="nav-item {{ slug=='trilha' ? "active" }}">
+                <a class="nav-link" href="{{ base_url() }}/admin/jornada/">
+                    Respostas
+                </a>
+            </li>
+        </ul>
+        <form class="form-inline">
+            <button class="btn btn-outline-success" type="button">Entrar</button>
+        </form>
+    </div>
+</nav>
+<div class="container-fluid">
+    {{ content | raw }}
+</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small text-white bg-dark pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center">
+
+        <!-- Grid row -->
+        <div class="row text-md-left">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+
+                <!-- Content -->
+                <h5 class="text-uppercase">Desafio do Código</h5>
+                <p>A força de vontade em aprender é nossa motivação primária. A criação do Desafio do Código busca
+                    difundir e democratizar o conhecimento, principalmente para quem teve ensino de baixa qualidade ou
+                    que vive em condição social precária. Nossa ideia é dar um norte para quem está procurando o que
+                    estudar com vontade.</p>
+
+                <div class="m-5 text-center">
+                    <h5 class="mb-1">Participe conosco gratuitamente</h5>
+                    <a href="#!" class="btn btn-danger btn-rounded">Registrar agora!</a>
+                </div>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mb-md-0 mb-6">
+
+                <!-- Links -->
+                <h5 class="text-uppercase">Blog</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#!" class="text-white">Projeto Open Source do Desafio do Código</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Uma proposta para o ensino de programação de computadores na
+                            Educação Básica</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Com matemática nós podemos!</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="text-white">Por que você deve aprender a programar?</a>
+                    </li>
+                </ul>
+
+                <div class="m-5">
+                    <p>Mantenha-se em dia com as últimas novidades do Desafio do Código.</p>
+                    <form class="input-group">
+                        <input type="text" class="form-control form-control-sm" placeholder="Seu email"
+                               aria-label="Your email" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-sm btn-outline-white" type="button">Assinar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-12 py-5 ">
+                <div class="mb-3 flex-center mx-auto">
+                    <a class="fb-ic">
+                        <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <a class="tw-ic">
+                        <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <a class="li-ic">
+                        <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <a class="ins-ic">
+                        <i class="fab fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center p-3">©
+        <a href="https://www.edtecnova.es/" class="text-white"> EdTecNova</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</body>
+</html>

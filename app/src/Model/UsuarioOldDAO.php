@@ -28,6 +28,11 @@ class UsuarioOldDAO extends DAO implements IDAO
         self::$instance = $this;
     }
 
+
+    /**
+     * @param null $pdo
+     * @return UsuarioOldDAO
+     */
     static function getInstance($pdo = null)
     {
         if (self::$instance == null) {

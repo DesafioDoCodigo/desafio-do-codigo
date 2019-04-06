@@ -1,0 +1,30 @@
+body {
+    background: #f8f8f8;
+    font-family: 'Open Sans', sans-serif !important;
+    color: #000;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+}
+
+/*** Navbar ****/
+.navbar-nav .nav-link {
+    font-size: 15px;
+}
+
+/*** HOME ****/
+.bg-soft-blue {
+    background-color: rgba(152, 226, 255, 0.45);
+}
+
+.bg-black {
+    background-color: black;
+}
+
+/*** Footer **/
+footer {
+    font-size: 14px;
+}

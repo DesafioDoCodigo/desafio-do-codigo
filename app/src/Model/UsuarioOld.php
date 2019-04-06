@@ -35,10 +35,14 @@ class UsuarioOld implements Instancia
     public $m_last;
     public $newsletter;
     public $mauticId;
+    public $email_invalido;
+    public $email_invalido_saldo;
+    public $last_mautic_update;
 
     public function __set($name, $value)
     {
-        echo $name . " -> " . $value . "<br>";
+        echo "Setando campo não declarado ($name) na classe " . self::class;
+        // echo $name . " -> " . $value . "<br>";
         // Validar alguns campos antes de salvar
         if ($name == 'email') {
             // Validar
@@ -63,14 +67,17 @@ class UsuarioOld implements Instancia
             $format = "Y-m-d H:m";
             if ($date === null || $date === '0000-00-00 00:00:00')
                 return null;
-            else
+            else if (strpos($date, "/")) {
+                $date = explode("/", $date);
+                return "$date[2]-$date[1]-$date[0] 00:00:00";
+            } else
                 return $date;
         };
 
         $data = [];
         $data['firstname'] = PLib::capitalize_name($this->nome); // Separar first name do restante
-        $data['email'] = trim(strtolower($this->email));
-        $data['login'] = trim(strtolower($this->login));
+        $data['email'] = str_replace(" ", "", trim(strtolower($this->email)));
+        $data['login'] = $this->removeAccents(trim(strtolower($this->login)));
         $data['ipAddress'] = $this->ip;
         $data['birthday'] = $formatMauticDate($this->nasc);
         $data['usertype'] = $this->tipo;
@@ -81,12 +88,39 @@ class UsuarioOld implements Instancia
         $data['schoolyear'] = $this->serie;
         $data['signupdate'] = $formatMauticDate($this->DataAdd);
         $data['lastlogindate'] = $formatMauticDate($this->last_login);
+        $data['oldpoints'] = $this->total;
+
+        // Ajustar encodings
+        if (mb_detect_encoding($data['firstname']) != 'UTF-8') {
+            // var_dump($data['firstname']);
+            $data['firstname'] = mb_convert_encoding($data['firstname'], "UTF-8");
+        }
+        if (mb_detect_encoding($data['login']) != 'UTF-8') {
+            // var_dump($data['login']);
+            $data['login'] = mb_convert_encoding($data['login'], "UTF-8");
+        }
+        if (mb_detect_encoding($data['nickname']) != 'UTF-8') {
+            // var_dump($data['login']);
+            $data['nickname'] = mb_convert_encoding($data['nickname'], "UTF-8");
+        }
+        if (mb_detect_encoding($data['school']) != 'UTF-8') {
+            // var_dump($data['login']);
+            $data['school'] = mb_convert_encoding($data['school'], "UTF-8");
+        }
+        if (mb_detect_encoding($data['city']) != 'UTF-8') {
+            // var_dump($data['login']);
+            $data['city'] = mb_convert_encoding($data['city'], "UTF-8");
+        }
 
         return $data;
     }
 
-    public
-    function save()
+    public function save()
     {
+    }
+
+    public function removeAccents($string)
+    {
+        return preg_replace(array("/(á|à|ã|â|ä)/", "/(Á|À|Ã|Â|Ä)/", "/(é|è|ê|ë)/", "/(É|È|Ê|Ë)/", "/(í|ì|î|ï)/", "/(Í|Ì|Î|Ï)/", "/(ó|ò|õ|ô|ö)/", "/(Ó|Ò|Õ|Ô|Ö)/", "/(ú|ù|û|ü)/", "/(Ú|Ù|Û|Ü)/", "/(ñ)/", "/(Ñ)/"), explode(" ", "a A e E i I o O u U n N"), $string);
     }
 }

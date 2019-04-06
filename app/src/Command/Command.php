@@ -11,7 +11,9 @@ class Command
 {
     public function log($mensagem)
     {
-        $mensagem = date("H:i:s") . " - $mensagem".PHP_EOL;
+        if (is_array($mensagem) || is_object($mensagem))
+            $mensagem = print_r($mensagem, true);
+        $mensagem = date("H:i:s") . " - $mensagem" . PHP_EOL;
         print($mensagem);
         flush();
         ob_flush();
