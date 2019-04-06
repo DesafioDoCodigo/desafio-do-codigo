@@ -15,5 +15,8 @@ Diga o que espera que aconteça...
 ## Como isso é hoje?
 Explique se já existe algo disso, como funciona (ou não) e porque não está bom.
 
-## Detalhe o que deve ser feito o máximo que puder
-Diga o que fazer, se preferir já inclua no formato de tarefas.
+## Detalhes do que deve ser feito
+Diga o que fazer (detalhando o máximo possível), se preferir já inclua no formato de tarefas.
+
+## Estimativa
+Estimadas X horas - PP/P/M/G
