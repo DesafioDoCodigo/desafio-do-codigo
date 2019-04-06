@@ -80,7 +80,7 @@ Certamente em 99% do tempo você estará trabalhando nos arquivos das pastas **C
 ## Rodando o projeto novo em desenvolvimento
 
 1. Baixe o código do repositório usando seu git;
-1. Acesse a pasta do projeto e execute ``php composer.phar install`` para instalar as dependências;
+1. Acesse a pasta do projeto e execute ``php composer.phar install`` para instalar as dependências (ou ``composer install``);
 1. Dê seu navegado, acesse seu localhost, algo como ``http://localhost/desafio_do_codigo/public/``. Você verá as instruções para concluir sua configuração;
 1. Crie um arquivo settings.php em /app/, usando como base o settings.template.php
 
