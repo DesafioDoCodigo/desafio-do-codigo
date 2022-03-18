@@ -5,7 +5,7 @@
 # O que é?
 
 O "[Desafio do Código](http://desafiodocodigo.com.br)" é um desafio online com um conjunto de missões que guiam você por ferramentas digitais para aprender programação, matemática e inglês. 
-Foi criado por [Soraia Novaes](http://professoragoogle.com.br/) para auxiliar crianças de 10 a 108 anos a aprender estas habilidades tão necessárias no mundo atual.
+Foi criado por [Soraia Novaes](http://professoragoogle.com.br/) para auxiliar crianças de 10 a 18 anos a aprender estas habilidades tão necessárias no mundo atual.
 
 # Organização dos Desafios
 
